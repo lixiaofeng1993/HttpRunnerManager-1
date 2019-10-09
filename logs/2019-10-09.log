@@ -2202,3 +2202,1150 @@ body: '{"data": [{"realname": "\\u5362\\u7ea2\\u6885", "phone": "18185610736", "
 [32m[47mINFO    [0m [32mGenerated Html report: D:\HttpRunnerManager-1\reports\2019-10-09 17-40-26.html[0m
 [32m[47mINFO    [0m [32mGenerated Html report: D:\HttpRunnerManager-1\reports\2019-10-09 17-40-26.html[0m
 [32m[47mINFO    [0m [32mGenerated Html report: D:\HttpRunnerManager-1\reports\2019-10-09 17-40-26.html[0m
+[32m[47mINFO    [0m [32mHttpRunner version: 2.2.5[0m
+[32m[47mINFO    [0m [32mStart to run testcase: 查询发布会接口[0m
+[32m[47mINFO    [0m [32mGET http://www.easytest.xyz/api/get_event_list/[0m
+[32m[47mINFO    [0m [32mstatus_code: 200, response_time(ms): 242.43 ms, response_length: 47 bytes
+[0m
+[31m[47mERROR   [0m [31mFailed to extract attribute from response! => message
+available response attributes: status_code, cookies, elapsed, headers, content, text, json, encoding, ok, reason, url.
+
+If you want to set attribute in teardown_hooks, take the following example as reference:
+response.new_attribute = 'new_attribute_value'
+[0m
+[31m[47mERROR   [0m [31m******************************** DETAILED REQUEST & RESPONSE ********************************
+====== request details ======
+url: http://www.easytest.xyz/api/get_event_list/
+method: GET
+headers: {}
+data: {'name': 'keep手环发布会'}
+verify: True
+
+====== response details ======
+status_code: 200
+headers: {'Server': 'nginx/1.11.3', 'Date': 'Wed, 09 Oct 2019 14:40:23 GMT', 'Content-Type': 'application/json', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Vary': 'Accept-Encoding', 'X-Frame-Options': 'SAMEORIGIN', 'Content-Encoding': 'gzip'}
+body: '{"message": "parameter error", "status": 10021}'
+[0m
+[32m[47mINFO    [0m [32mStart to render Html report ...[0m
+[32m[47mINFO    [0m [32mGenerated Html report: D:\HttpRunnerManager-1\reports\2019-10-09 22-40-21.html[0m
+[32m[47mINFO    [0m [32mHttpRunner version: 2.2.5[0m
+[32m[47mINFO    [0m [32mHttpRunner version: 2.2.5[0m
+[32m[47mINFO    [0m [32mStart to run testcase: 查询发布会接口[0m
+[32m[47mINFO    [0m [32mStart to run testcase: 查询发布会接口[0m
+[32m[47mINFO    [0m [32mGET http://www.easytest.xyz/api/get_event_list/[0m
+[32m[47mINFO    [0m [32mGET http://www.easytest.xyz/api/get_event_list/[0m
+[32m[47mINFO    [0m [32mstatus_code: 200, response_time(ms): 29.92 ms, response_length: 47 bytes
+[0m
+[32m[47mINFO    [0m [32mstatus_code: 200, response_time(ms): 29.92 ms, response_length: 47 bytes
+[0m
+[31m[47mERROR   [0m [31mFailed to extract attribute from response! => message
+available response attributes: status_code, cookies, elapsed, headers, content, text, json, encoding, ok, reason, url.
+
+If you want to set attribute in teardown_hooks, take the following example as reference:
+response.new_attribute = 'new_attribute_value'
+[0m
+[31m[47mERROR   [0m [31mFailed to extract attribute from response! => message
+available response attributes: status_code, cookies, elapsed, headers, content, text, json, encoding, ok, reason, url.
+
+If you want to set attribute in teardown_hooks, take the following example as reference:
+response.new_attribute = 'new_attribute_value'
+[0m
+[31m[47mERROR   [0m [31m******************************** DETAILED REQUEST & RESPONSE ********************************
+====== request details ======
+url: http://www.easytest.xyz/api/get_event_list/
+method: GET
+headers: {}
+data: {'name': 'keep手环发布会'}
+verify: True
+
+====== response details ======
+status_code: 200
+headers: {'Server': 'nginx/1.11.3', 'Date': 'Wed, 09 Oct 2019 14:41:05 GMT', 'Content-Type': 'application/json', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Vary': 'Accept-Encoding', 'X-Frame-Options': 'SAMEORIGIN', 'Content-Encoding': 'gzip'}
+body: '{"message": "parameter error", "status": 10021}'
+[0m
+[31m[47mERROR   [0m [31m******************************** DETAILED REQUEST & RESPONSE ********************************
+====== request details ======
+url: http://www.easytest.xyz/api/get_event_list/
+method: GET
+headers: {}
+data: {'name': 'keep手环发布会'}
+verify: True
+
+====== response details ======
+status_code: 200
+headers: {'Server': 'nginx/1.11.3', 'Date': 'Wed, 09 Oct 2019 14:41:05 GMT', 'Content-Type': 'application/json', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Vary': 'Accept-Encoding', 'X-Frame-Options': 'SAMEORIGIN', 'Content-Encoding': 'gzip'}
+body: '{"message": "parameter error", "status": 10021}'
+[0m
+[32m[47mINFO    [0m [32mStart to render Html report ...[0m
+[32m[47mINFO    [0m [32mStart to render Html report ...[0m
+[32m[47mINFO    [0m [32mGenerated Html report: D:\HttpRunnerManager-1\reports\2019-10-09 22-41-03.html[0m
+[32m[47mINFO    [0m [32mGenerated Html report: D:\HttpRunnerManager-1\reports\2019-10-09 22-41-03.html[0m
+[32m[47mINFO    [0m [32mHttpRunner version: 2.2.5[0m
+[32m[47mINFO    [0m [32mHttpRunner version: 2.2.5[0m
+[32m[47mINFO    [0m [32mHttpRunner version: 2.2.5[0m
+[32m[47mINFO    [0m [32mStart to run testcase: 查询发布会接口[0m
+[32m[47mINFO    [0m [32mStart to run testcase: 查询发布会接口[0m
+[32m[47mINFO    [0m [32mStart to run testcase: 查询发布会接口[0m
+[32m[47mINFO    [0m [32mGET http://www.easytest.xyz/api/get_event_list/[0m
+[32m[47mINFO    [0m [32mGET http://www.easytest.xyz/api/get_event_list/[0m
+[32m[47mINFO    [0m [32mGET http://www.easytest.xyz/api/get_event_list/[0m
+[32m[47mINFO    [0m [32mstatus_code: 200, response_time(ms): 39.92 ms, response_length: 47 bytes
+[0m
+[32m[47mINFO    [0m [32mstatus_code: 200, response_time(ms): 39.92 ms, response_length: 47 bytes
+[0m
+[32m[47mINFO    [0m [32mstatus_code: 200, response_time(ms): 39.92 ms, response_length: 47 bytes
+[0m
+[31m[47mERROR   [0m [31mFailed to extract attribute from response! => conten.message
+available response attributes: status_code, cookies, elapsed, headers, content, text, json, encoding, ok, reason, url.
+
+If you want to set attribute in teardown_hooks, take the following example as reference:
+response.new_attribute = 'new_attribute_value'
+[0m
+[31m[47mERROR   [0m [31mFailed to extract attribute from response! => conten.message
+available response attributes: status_code, cookies, elapsed, headers, content, text, json, encoding, ok, reason, url.
+
+If you want to set attribute in teardown_hooks, take the following example as reference:
+response.new_attribute = 'new_attribute_value'
+[0m
+[31m[47mERROR   [0m [31mFailed to extract attribute from response! => conten.message
+available response attributes: status_code, cookies, elapsed, headers, content, text, json, encoding, ok, reason, url.
+
+If you want to set attribute in teardown_hooks, take the following example as reference:
+response.new_attribute = 'new_attribute_value'
+[0m
+[31m[47mERROR   [0m [31m******************************** DETAILED REQUEST & RESPONSE ********************************
+====== request details ======
+url: http://www.easytest.xyz/api/get_event_list/
+method: GET
+headers: {}
+data: {'name': 'keep手环发布会'}
+verify: True
+
+====== response details ======
+status_code: 200
+headers: {'Server': 'nginx/1.11.3', 'Date': 'Wed, 09 Oct 2019 14:41:34 GMT', 'Content-Type': 'application/json', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Vary': 'Accept-Encoding', 'X-Frame-Options': 'SAMEORIGIN', 'Content-Encoding': 'gzip'}
+body: '{"message": "parameter error", "status": 10021}'
+[0m
+[31m[47mERROR   [0m [31m******************************** DETAILED REQUEST & RESPONSE ********************************
+====== request details ======
+url: http://www.easytest.xyz/api/get_event_list/
+method: GET
+headers: {}
+data: {'name': 'keep手环发布会'}
+verify: True
+
+====== response details ======
+status_code: 200
+headers: {'Server': 'nginx/1.11.3', 'Date': 'Wed, 09 Oct 2019 14:41:34 GMT', 'Content-Type': 'application/json', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Vary': 'Accept-Encoding', 'X-Frame-Options': 'SAMEORIGIN', 'Content-Encoding': 'gzip'}
+body: '{"message": "parameter error", "status": 10021}'
+[0m
+[31m[47mERROR   [0m [31m******************************** DETAILED REQUEST & RESPONSE ********************************
+====== request details ======
+url: http://www.easytest.xyz/api/get_event_list/
+method: GET
+headers: {}
+data: {'name': 'keep手环发布会'}
+verify: True
+
+====== response details ======
+status_code: 200
+headers: {'Server': 'nginx/1.11.3', 'Date': 'Wed, 09 Oct 2019 14:41:34 GMT', 'Content-Type': 'application/json', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Vary': 'Accept-Encoding', 'X-Frame-Options': 'SAMEORIGIN', 'Content-Encoding': 'gzip'}
+body: '{"message": "parameter error", "status": 10021}'
+[0m
+[32m[47mINFO    [0m [32mStart to render Html report ...[0m
+[32m[47mINFO    [0m [32mStart to render Html report ...[0m
+[32m[47mINFO    [0m [32mStart to render Html report ...[0m
+[32m[47mINFO    [0m [32mGenerated Html report: D:\HttpRunnerManager-1\reports\2019-10-09 22-41-32.html[0m
+[32m[47mINFO    [0m [32mGenerated Html report: D:\HttpRunnerManager-1\reports\2019-10-09 22-41-32.html[0m
+[32m[47mINFO    [0m [32mGenerated Html report: D:\HttpRunnerManager-1\reports\2019-10-09 22-41-32.html[0m
+[32m[47mINFO    [0m [32mHttpRunner version: 2.2.5[0m
+[32m[47mINFO    [0m [32mHttpRunner version: 2.2.5[0m
+[32m[47mINFO    [0m [32mHttpRunner version: 2.2.5[0m
+[32m[47mINFO    [0m [32mHttpRunner version: 2.2.5[0m
+[32m[47mINFO    [0m [32mStart to run testcase: 查询发布会接口[0m
+[32m[47mINFO    [0m [32mStart to run testcase: 查询发布会接口[0m
+[32m[47mINFO    [0m [32mStart to run testcase: 查询发布会接口[0m
+[32m[47mINFO    [0m [32mStart to run testcase: 查询发布会接口[0m
+[32m[47mINFO    [0m [32mGET http://www.easytest.xyz/api/get_event_list/[0m
+[32m[47mINFO    [0m [32mGET http://www.easytest.xyz/api/get_event_list/[0m
+[32m[47mINFO    [0m [32mGET http://www.easytest.xyz/api/get_event_list/[0m
+[32m[47mINFO    [0m [32mGET http://www.easytest.xyz/api/get_event_list/[0m
+[32m[47mINFO    [0m [32mstatus_code: 200, response_time(ms): 44.88 ms, response_length: 47 bytes
+[0m
+[32m[47mINFO    [0m [32mstatus_code: 200, response_time(ms): 44.88 ms, response_length: 47 bytes
+[0m
+[32m[47mINFO    [0m [32mstatus_code: 200, response_time(ms): 44.88 ms, response_length: 47 bytes
+[0m
+[32m[47mINFO    [0m [32mstatus_code: 200, response_time(ms): 44.88 ms, response_length: 47 bytes
+[0m
+[31m[47mERROR   [0m [31m
+validate: content.message equals success(str)	==> fail
+parameter error(str) equals success(str)[0m
+[31m[47mERROR   [0m [31m
+validate: content.message equals success(str)	==> fail
+parameter error(str) equals success(str)[0m
+[31m[47mERROR   [0m [31m
+validate: content.message equals success(str)	==> fail
+parameter error(str) equals success(str)[0m
+[31m[47mERROR   [0m [31m
+validate: content.message equals success(str)	==> fail
+parameter error(str) equals success(str)[0m
+[31m[47mERROR   [0m [31m******************************** DETAILED REQUEST & RESPONSE ********************************
+====== request details ======
+url: http://www.easytest.xyz/api/get_event_list/
+method: GET
+headers: {}
+data: {'name': 'keep手环发布会'}
+verify: True
+
+====== response details ======
+status_code: 200
+headers: {'Server': 'nginx/1.11.3', 'Date': 'Wed, 09 Oct 2019 14:43:29 GMT', 'Content-Type': 'application/json', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Vary': 'Accept-Encoding', 'X-Frame-Options': 'SAMEORIGIN', 'Content-Encoding': 'gzip'}
+body: '{"message": "parameter error", "status": 10021}'
+[0m
+[31m[47mERROR   [0m [31m******************************** DETAILED REQUEST & RESPONSE ********************************
+====== request details ======
+url: http://www.easytest.xyz/api/get_event_list/
+method: GET
+headers: {}
+data: {'name': 'keep手环发布会'}
+verify: True
+
+====== response details ======
+status_code: 200
+headers: {'Server': 'nginx/1.11.3', 'Date': 'Wed, 09 Oct 2019 14:43:29 GMT', 'Content-Type': 'application/json', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Vary': 'Accept-Encoding', 'X-Frame-Options': 'SAMEORIGIN', 'Content-Encoding': 'gzip'}
+body: '{"message": "parameter error", "status": 10021}'
+[0m
+[31m[47mERROR   [0m [31m******************************** DETAILED REQUEST & RESPONSE ********************************
+====== request details ======
+url: http://www.easytest.xyz/api/get_event_list/
+method: GET
+headers: {}
+data: {'name': 'keep手环发布会'}
+verify: True
+
+====== response details ======
+status_code: 200
+headers: {'Server': 'nginx/1.11.3', 'Date': 'Wed, 09 Oct 2019 14:43:29 GMT', 'Content-Type': 'application/json', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Vary': 'Accept-Encoding', 'X-Frame-Options': 'SAMEORIGIN', 'Content-Encoding': 'gzip'}
+body: '{"message": "parameter error", "status": 10021}'
+[0m
+[31m[47mERROR   [0m [31m******************************** DETAILED REQUEST & RESPONSE ********************************
+====== request details ======
+url: http://www.easytest.xyz/api/get_event_list/
+method: GET
+headers: {}
+data: {'name': 'keep手环发布会'}
+verify: True
+
+====== response details ======
+status_code: 200
+headers: {'Server': 'nginx/1.11.3', 'Date': 'Wed, 09 Oct 2019 14:43:29 GMT', 'Content-Type': 'application/json', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Vary': 'Accept-Encoding', 'X-Frame-Options': 'SAMEORIGIN', 'Content-Encoding': 'gzip'}
+body: '{"message": "parameter error", "status": 10021}'
+[0m
+[32m[47mINFO    [0m [32mStart to render Html report ...[0m
+[32m[47mINFO    [0m [32mStart to render Html report ...[0m
+[32m[47mINFO    [0m [32mStart to render Html report ...[0m
+[32m[47mINFO    [0m [32mStart to render Html report ...[0m
+[32m[47mINFO    [0m [32mGenerated Html report: D:\HttpRunnerManager-1\reports\2019-10-09 22-43-27.html[0m
+[32m[47mINFO    [0m [32mGenerated Html report: D:\HttpRunnerManager-1\reports\2019-10-09 22-43-27.html[0m
+[32m[47mINFO    [0m [32mGenerated Html report: D:\HttpRunnerManager-1\reports\2019-10-09 22-43-27.html[0m
+[32m[47mINFO    [0m [32mGenerated Html report: D:\HttpRunnerManager-1\reports\2019-10-09 22-43-27.html[0m
+[32m[47mINFO    [0m [32mHttpRunner version: 2.2.5[0m
+[32m[47mINFO    [0m [32mHttpRunner version: 2.2.5[0m
+[32m[47mINFO    [0m [32mHttpRunner version: 2.2.5[0m
+[32m[47mINFO    [0m [32mHttpRunner version: 2.2.5[0m
+[32m[47mINFO    [0m [32mHttpRunner version: 2.2.5[0m
+[32m[47mINFO    [0m [32mStart to run testcase: 查询发布会接口[0m
+[32m[47mINFO    [0m [32mStart to run testcase: 查询发布会接口[0m
+[32m[47mINFO    [0m [32mStart to run testcase: 查询发布会接口[0m
+[32m[47mINFO    [0m [32mStart to run testcase: 查询发布会接口[0m
+[32m[47mINFO    [0m [32mStart to run testcase: 查询发布会接口[0m
+[32m[47mINFO    [0m [32mGET http://www.easytest.xyz/api/get_event_list/[0m
+[32m[47mINFO    [0m [32mGET http://www.easytest.xyz/api/get_event_list/[0m
+[32m[47mINFO    [0m [32mGET http://www.easytest.xyz/api/get_event_list/[0m
+[32m[47mINFO    [0m [32mGET http://www.easytest.xyz/api/get_event_list/[0m
+[32m[47mINFO    [0m [32mGET http://www.easytest.xyz/api/get_event_list/[0m
+[32m[47mINFO    [0m [32mstatus_code: 200, response_time(ms): 472.35 ms, response_length: 47 bytes
+[0m
+[32m[47mINFO    [0m [32mstatus_code: 200, response_time(ms): 472.35 ms, response_length: 47 bytes
+[0m
+[32m[47mINFO    [0m [32mstatus_code: 200, response_time(ms): 472.35 ms, response_length: 47 bytes
+[0m
+[32m[47mINFO    [0m [32mstatus_code: 200, response_time(ms): 472.35 ms, response_length: 47 bytes
+[0m
+[32m[47mINFO    [0m [32mstatus_code: 200, response_time(ms): 472.35 ms, response_length: 47 bytes
+[0m
+[31m[47mERROR   [0m [31m
+validate: content.message equals success(str)	==> fail
+parameter error(str) equals success(str)[0m
+[31m[47mERROR   [0m [31m
+validate: content.message equals success(str)	==> fail
+parameter error(str) equals success(str)[0m
+[31m[47mERROR   [0m [31m
+validate: content.message equals success(str)	==> fail
+parameter error(str) equals success(str)[0m
+[31m[47mERROR   [0m [31m
+validate: content.message equals success(str)	==> fail
+parameter error(str) equals success(str)[0m
+[31m[47mERROR   [0m [31m
+validate: content.message equals success(str)	==> fail
+parameter error(str) equals success(str)[0m
+[31m[47mERROR   [0m [31m******************************** DETAILED REQUEST & RESPONSE ********************************
+====== request details ======
+url: http://www.easytest.xyz/api/get_event_list/
+method: GET
+headers: {}
+data: {'name': 'keep手环发布会'}
+verify: True
+
+====== response details ======
+status_code: 200
+headers: {'Server': 'nginx/1.11.3', 'Date': 'Wed, 09 Oct 2019 14:45:15 GMT', 'Content-Type': 'application/json', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Vary': 'Accept-Encoding', 'X-Frame-Options': 'SAMEORIGIN', 'Content-Encoding': 'gzip'}
+body: '{"message": "parameter error", "status": 10021}'
+[0m
+[31m[47mERROR   [0m [31m******************************** DETAILED REQUEST & RESPONSE ********************************
+====== request details ======
+url: http://www.easytest.xyz/api/get_event_list/
+method: GET
+headers: {}
+data: {'name': 'keep手环发布会'}
+verify: True
+
+====== response details ======
+status_code: 200
+headers: {'Server': 'nginx/1.11.3', 'Date': 'Wed, 09 Oct 2019 14:45:15 GMT', 'Content-Type': 'application/json', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Vary': 'Accept-Encoding', 'X-Frame-Options': 'SAMEORIGIN', 'Content-Encoding': 'gzip'}
+body: '{"message": "parameter error", "status": 10021}'
+[0m
+[31m[47mERROR   [0m [31m******************************** DETAILED REQUEST & RESPONSE ********************************
+====== request details ======
+url: http://www.easytest.xyz/api/get_event_list/
+method: GET
+headers: {}
+data: {'name': 'keep手环发布会'}
+verify: True
+
+====== response details ======
+status_code: 200
+headers: {'Server': 'nginx/1.11.3', 'Date': 'Wed, 09 Oct 2019 14:45:15 GMT', 'Content-Type': 'application/json', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Vary': 'Accept-Encoding', 'X-Frame-Options': 'SAMEORIGIN', 'Content-Encoding': 'gzip'}
+body: '{"message": "parameter error", "status": 10021}'
+[0m
+[31m[47mERROR   [0m [31m******************************** DETAILED REQUEST & RESPONSE ********************************
+====== request details ======
+url: http://www.easytest.xyz/api/get_event_list/
+method: GET
+headers: {}
+data: {'name': 'keep手环发布会'}
+verify: True
+
+====== response details ======
+status_code: 200
+headers: {'Server': 'nginx/1.11.3', 'Date': 'Wed, 09 Oct 2019 14:45:15 GMT', 'Content-Type': 'application/json', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Vary': 'Accept-Encoding', 'X-Frame-Options': 'SAMEORIGIN', 'Content-Encoding': 'gzip'}
+body: '{"message": "parameter error", "status": 10021}'
+[0m
+[31m[47mERROR   [0m [31m******************************** DETAILED REQUEST & RESPONSE ********************************
+====== request details ======
+url: http://www.easytest.xyz/api/get_event_list/
+method: GET
+headers: {}
+data: {'name': 'keep手环发布会'}
+verify: True
+
+====== response details ======
+status_code: 200
+headers: {'Server': 'nginx/1.11.3', 'Date': 'Wed, 09 Oct 2019 14:45:15 GMT', 'Content-Type': 'application/json', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Vary': 'Accept-Encoding', 'X-Frame-Options': 'SAMEORIGIN', 'Content-Encoding': 'gzip'}
+body: '{"message": "parameter error", "status": 10021}'
+[0m
+[32m[47mINFO    [0m [32mStart to render Html report ...[0m
+[32m[47mINFO    [0m [32mStart to render Html report ...[0m
+[32m[47mINFO    [0m [32mStart to render Html report ...[0m
+[32m[47mINFO    [0m [32mStart to render Html report ...[0m
+[32m[47mINFO    [0m [32mStart to render Html report ...[0m
+[32m[47mINFO    [0m [32mGenerated Html report: D:\HttpRunnerManager-1\reports\2019-10-09 22-45-12.html[0m
+[32m[47mINFO    [0m [32mGenerated Html report: D:\HttpRunnerManager-1\reports\2019-10-09 22-45-12.html[0m
+[32m[47mINFO    [0m [32mGenerated Html report: D:\HttpRunnerManager-1\reports\2019-10-09 22-45-12.html[0m
+[32m[47mINFO    [0m [32mGenerated Html report: D:\HttpRunnerManager-1\reports\2019-10-09 22-45-12.html[0m
+[32m[47mINFO    [0m [32mGenerated Html report: D:\HttpRunnerManager-1\reports\2019-10-09 22-45-12.html[0m
+[32m[47mINFO    [0m [32mHttpRunner version: 2.2.5[0m
+[32m[47mINFO    [0m [32mHttpRunner version: 2.2.5[0m
+[32m[47mINFO    [0m [32mHttpRunner version: 2.2.5[0m
+[32m[47mINFO    [0m [32mHttpRunner version: 2.2.5[0m
+[32m[47mINFO    [0m [32mHttpRunner version: 2.2.5[0m
+[32m[47mINFO    [0m [32mHttpRunner version: 2.2.5[0m
+[32m[47mINFO    [0m [32mStart to run testcase: 查询发布会接口[0m
+[32m[47mINFO    [0m [32mStart to run testcase: 查询发布会接口[0m
+[32m[47mINFO    [0m [32mStart to run testcase: 查询发布会接口[0m
+[32m[47mINFO    [0m [32mStart to run testcase: 查询发布会接口[0m
+[32m[47mINFO    [0m [32mStart to run testcase: 查询发布会接口[0m
+[32m[47mINFO    [0m [32mStart to run testcase: 查询发布会接口[0m
+[32m[47mINFO    [0m [32mGET http://www.easytest.xyz/api/get_event_list/[0m
+[32m[47mINFO    [0m [32mGET http://www.easytest.xyz/api/get_event_list/[0m
+[32m[47mINFO    [0m [32mGET http://www.easytest.xyz/api/get_event_list/[0m
+[32m[47mINFO    [0m [32mGET http://www.easytest.xyz/api/get_event_list/[0m
+[32m[47mINFO    [0m [32mGET http://www.easytest.xyz/api/get_event_list/[0m
+[32m[47mINFO    [0m [32mGET http://www.easytest.xyz/api/get_event_list/[0m
+[32m[47mINFO    [0m [32mstatus_code: 200, response_time(ms): 58.19 ms, response_length: 252 bytes
+[0m
+[32m[47mINFO    [0m [32mstatus_code: 200, response_time(ms): 58.19 ms, response_length: 252 bytes
+[0m
+[32m[47mINFO    [0m [32mstatus_code: 200, response_time(ms): 58.19 ms, response_length: 252 bytes
+[0m
+[32m[47mINFO    [0m [32mstatus_code: 200, response_time(ms): 58.19 ms, response_length: 252 bytes
+[0m
+[32m[47mINFO    [0m [32mstatus_code: 200, response_time(ms): 58.19 ms, response_length: 252 bytes
+[0m
+[32m[47mINFO    [0m [32mstatus_code: 200, response_time(ms): 58.19 ms, response_length: 252 bytes
+[0m
+[32m[47mINFO    [0m [32mStart to render Html report ...[0m
+[32m[47mINFO    [0m [32mStart to render Html report ...[0m
+[32m[47mINFO    [0m [32mStart to render Html report ...[0m
+[32m[47mINFO    [0m [32mStart to render Html report ...[0m
+[32m[47mINFO    [0m [32mStart to render Html report ...[0m
+[32m[47mINFO    [0m [32mStart to render Html report ...[0m
+[32m[47mINFO    [0m [32mGenerated Html report: D:\HttpRunnerManager-1\reports\2019-10-09 22-45-54.html[0m
+[32m[47mINFO    [0m [32mGenerated Html report: D:\HttpRunnerManager-1\reports\2019-10-09 22-45-54.html[0m
+[32m[47mINFO    [0m [32mGenerated Html report: D:\HttpRunnerManager-1\reports\2019-10-09 22-45-54.html[0m
+[32m[47mINFO    [0m [32mGenerated Html report: D:\HttpRunnerManager-1\reports\2019-10-09 22-45-54.html[0m
+[32m[47mINFO    [0m [32mGenerated Html report: D:\HttpRunnerManager-1\reports\2019-10-09 22-45-54.html[0m
+[32m[47mINFO    [0m [32mGenerated Html report: D:\HttpRunnerManager-1\reports\2019-10-09 22-45-54.html[0m
+[32m[47mINFO    [0m [32mHttpRunner version: 2.2.5[0m
+[32m[47mINFO    [0m [32mHttpRunner version: 2.2.5[0m
+[32m[47mINFO    [0m [32mHttpRunner version: 2.2.5[0m
+[32m[47mINFO    [0m [32mHttpRunner version: 2.2.5[0m
+[32m[47mINFO    [0m [32mHttpRunner version: 2.2.5[0m
+[32m[47mINFO    [0m [32mHttpRunner version: 2.2.5[0m
+[32m[47mINFO    [0m [32mHttpRunner version: 2.2.5[0m
+[32m[47mINFO    [0m [32mStart to run testcase: 查询发布会接口[0m
+[32m[47mINFO    [0m [32mStart to run testcase: 查询发布会接口[0m
+[32m[47mINFO    [0m [32mStart to run testcase: 查询发布会接口[0m
+[32m[47mINFO    [0m [32mStart to run testcase: 查询发布会接口[0m
+[32m[47mINFO    [0m [32mStart to run testcase: 查询发布会接口[0m
+[32m[47mINFO    [0m [32mStart to run testcase: 查询发布会接口[0m
+[32m[47mINFO    [0m [32mStart to run testcase: 查询发布会接口[0m
+[32m[47mINFO    [0m [32mGET http://www.easytest.xyz/api/get_event_list/[0m
+[32m[47mINFO    [0m [32mGET http://www.easytest.xyz/api/get_event_list/[0m
+[32m[47mINFO    [0m [32mGET http://www.easytest.xyz/api/get_event_list/[0m
+[32m[47mINFO    [0m [32mGET http://www.easytest.xyz/api/get_event_list/[0m
+[32m[47mINFO    [0m [32mGET http://www.easytest.xyz/api/get_event_list/[0m
+[32m[47mINFO    [0m [32mGET http://www.easytest.xyz/api/get_event_list/[0m
+[32m[47mINFO    [0m [32mGET http://www.easytest.xyz/api/get_event_list/[0m
+[32m[47mINFO    [0m [32mstatus_code: 200, response_time(ms): 122.23 ms, response_length: 252 bytes
+[0m
+[32m[47mINFO    [0m [32mstatus_code: 200, response_time(ms): 122.23 ms, response_length: 252 bytes
+[0m
+[32m[47mINFO    [0m [32mstatus_code: 200, response_time(ms): 122.23 ms, response_length: 252 bytes
+[0m
+[32m[47mINFO    [0m [32mstatus_code: 200, response_time(ms): 122.23 ms, response_length: 252 bytes
+[0m
+[32m[47mINFO    [0m [32mstatus_code: 200, response_time(ms): 122.23 ms, response_length: 252 bytes
+[0m
+[32m[47mINFO    [0m [32mstatus_code: 200, response_time(ms): 122.23 ms, response_length: 252 bytes
+[0m
+[32m[47mINFO    [0m [32mstatus_code: 200, response_time(ms): 122.23 ms, response_length: 252 bytes
+[0m
+[32m[47mINFO    [0m [32mStart to render Html report ...[0m
+[32m[47mINFO    [0m [32mStart to render Html report ...[0m
+[32m[47mINFO    [0m [32mStart to render Html report ...[0m
+[32m[47mINFO    [0m [32mStart to render Html report ...[0m
+[32m[47mINFO    [0m [32mStart to render Html report ...[0m
+[32m[47mINFO    [0m [32mStart to render Html report ...[0m
+[32m[47mINFO    [0m [32mStart to render Html report ...[0m
+[32m[47mINFO    [0m [32mGenerated Html report: D:\HttpRunnerManager-1\reports\2019-10-09 22-47-48.html[0m
+[32m[47mINFO    [0m [32mGenerated Html report: D:\HttpRunnerManager-1\reports\2019-10-09 22-47-48.html[0m
+[32m[47mINFO    [0m [32mGenerated Html report: D:\HttpRunnerManager-1\reports\2019-10-09 22-47-48.html[0m
+[32m[47mINFO    [0m [32mGenerated Html report: D:\HttpRunnerManager-1\reports\2019-10-09 22-47-48.html[0m
+[32m[47mINFO    [0m [32mGenerated Html report: D:\HttpRunnerManager-1\reports\2019-10-09 22-47-48.html[0m
+[32m[47mINFO    [0m [32mGenerated Html report: D:\HttpRunnerManager-1\reports\2019-10-09 22-47-48.html[0m
+[32m[47mINFO    [0m [32mGenerated Html report: D:\HttpRunnerManager-1\reports\2019-10-09 22-47-48.html[0m
+[32m[47mINFO    [0m [32mHttpRunner version: 2.2.5[0m
+[32m[47mINFO    [0m [32mHttpRunner version: 2.2.5[0m
+[32m[47mINFO    [0m [32mHttpRunner version: 2.2.5[0m
+[32m[47mINFO    [0m [32mHttpRunner version: 2.2.5[0m
+[32m[47mINFO    [0m [32mHttpRunner version: 2.2.5[0m
+[32m[47mINFO    [0m [32mHttpRunner version: 2.2.5[0m
+[32m[47mINFO    [0m [32mHttpRunner version: 2.2.5[0m
+[32m[47mINFO    [0m [32mHttpRunner version: 2.2.5[0m
+[32m[47mINFO    [0m [32mStart to run testcase: 查询嘉宾接口[0m
+[32m[47mINFO    [0m [32mStart to run testcase: 查询嘉宾接口[0m
+[32m[47mINFO    [0m [32mStart to run testcase: 查询嘉宾接口[0m
+[32m[47mINFO    [0m [32mStart to run testcase: 查询嘉宾接口[0m
+[32m[47mINFO    [0m [32mStart to run testcase: 查询嘉宾接口[0m
+[32m[47mINFO    [0m [32mStart to run testcase: 查询嘉宾接口[0m
+[32m[47mINFO    [0m [32mStart to run testcase: 查询嘉宾接口[0m
+[32m[47mINFO    [0m [32mStart to run testcase: 查询嘉宾接口[0m
+[32m[47mINFO    [0m [32mPOST http://www.easytest.xyz/api/get_guest_list/[0m
+[32m[47mINFO    [0m [32mPOST http://www.easytest.xyz/api/get_guest_list/[0m
+[32m[47mINFO    [0m [32mPOST http://www.easytest.xyz/api/get_guest_list/[0m
+[32m[47mINFO    [0m [32mPOST http://www.easytest.xyz/api/get_guest_list/[0m
+[32m[47mINFO    [0m [32mPOST http://www.easytest.xyz/api/get_guest_list/[0m
+[32m[47mINFO    [0m [32mPOST http://www.easytest.xyz/api/get_guest_list/[0m
+[32m[47mINFO    [0m [32mPOST http://www.easytest.xyz/api/get_guest_list/[0m
+[32m[47mINFO    [0m [32mPOST http://www.easytest.xyz/api/get_guest_list/[0m
+[32m[47mINFO    [0m [32mstatus_code: 200, response_time(ms): 38.9 ms, response_length: 53 bytes
+[0m
+[32m[47mINFO    [0m [32mstatus_code: 200, response_time(ms): 38.9 ms, response_length: 53 bytes
+[0m
+[32m[47mINFO    [0m [32mstatus_code: 200, response_time(ms): 38.9 ms, response_length: 53 bytes
+[0m
+[32m[47mINFO    [0m [32mstatus_code: 200, response_time(ms): 38.9 ms, response_length: 53 bytes
+[0m
+[32m[47mINFO    [0m [32mstatus_code: 200, response_time(ms): 38.9 ms, response_length: 53 bytes
+[0m
+[32m[47mINFO    [0m [32mstatus_code: 200, response_time(ms): 38.9 ms, response_length: 53 bytes
+[0m
+[32m[47mINFO    [0m [32mstatus_code: 200, response_time(ms): 38.9 ms, response_length: 53 bytes
+[0m
+[32m[47mINFO    [0m [32mstatus_code: 200, response_time(ms): 38.9 ms, response_length: 53 bytes
+[0m
+[31m[47mERROR   [0m [31mFailed to extract attribute from response! => conten.message
+available response attributes: status_code, cookies, elapsed, headers, content, text, json, encoding, ok, reason, url.
+
+If you want to set attribute in teardown_hooks, take the following example as reference:
+response.new_attribute = 'new_attribute_value'
+[0m
+[31m[47mERROR   [0m [31mFailed to extract attribute from response! => conten.message
+available response attributes: status_code, cookies, elapsed, headers, content, text, json, encoding, ok, reason, url.
+
+If you want to set attribute in teardown_hooks, take the following example as reference:
+response.new_attribute = 'new_attribute_value'
+[0m
+[31m[47mERROR   [0m [31mFailed to extract attribute from response! => conten.message
+available response attributes: status_code, cookies, elapsed, headers, content, text, json, encoding, ok, reason, url.
+
+If you want to set attribute in teardown_hooks, take the following example as reference:
+response.new_attribute = 'new_attribute_value'
+[0m
+[31m[47mERROR   [0m [31mFailed to extract attribute from response! => conten.message
+available response attributes: status_code, cookies, elapsed, headers, content, text, json, encoding, ok, reason, url.
+
+If you want to set attribute in teardown_hooks, take the following example as reference:
+response.new_attribute = 'new_attribute_value'
+[0m
+[31m[47mERROR   [0m [31mFailed to extract attribute from response! => conten.message
+available response attributes: status_code, cookies, elapsed, headers, content, text, json, encoding, ok, reason, url.
+
+If you want to set attribute in teardown_hooks, take the following example as reference:
+response.new_attribute = 'new_attribute_value'
+[0m
+[31m[47mERROR   [0m [31mFailed to extract attribute from response! => conten.message
+available response attributes: status_code, cookies, elapsed, headers, content, text, json, encoding, ok, reason, url.
+
+If you want to set attribute in teardown_hooks, take the following example as reference:
+response.new_attribute = 'new_attribute_value'
+[0m
+[31m[47mERROR   [0m [31mFailed to extract attribute from response! => conten.message
+available response attributes: status_code, cookies, elapsed, headers, content, text, json, encoding, ok, reason, url.
+
+If you want to set attribute in teardown_hooks, take the following example as reference:
+response.new_attribute = 'new_attribute_value'
+[0m
+[31m[47mERROR   [0m [31mFailed to extract attribute from response! => conten.message
+available response attributes: status_code, cookies, elapsed, headers, content, text, json, encoding, ok, reason, url.
+
+If you want to set attribute in teardown_hooks, take the following example as reference:
+response.new_attribute = 'new_attribute_value'
+[0m
+[31m[47mERROR   [0m [31m******************************** DETAILED REQUEST & RESPONSE ********************************
+====== request details ======
+url: http://www.easytest.xyz/api/get_guest_list/
+method: POST
+headers: {}
+params: {'name': '\t李健'}
+verify: True
+
+====== response details ======
+status_code: 200
+headers: {'Server': 'nginx/1.11.3', 'Date': 'Wed, 09 Oct 2019 14:48:01 GMT', 'Content-Type': 'application/json', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Vary': 'Accept-Encoding', 'X-Frame-Options': 'SAMEORIGIN', 'Content-Encoding': 'gzip'}
+body: '{"message": "query result is empty", "status": 10022}'
+[0m
+[31m[47mERROR   [0m [31m******************************** DETAILED REQUEST & RESPONSE ********************************
+====== request details ======
+url: http://www.easytest.xyz/api/get_guest_list/
+method: POST
+headers: {}
+params: {'name': '\t李健'}
+verify: True
+
+====== response details ======
+status_code: 200
+headers: {'Server': 'nginx/1.11.3', 'Date': 'Wed, 09 Oct 2019 14:48:01 GMT', 'Content-Type': 'application/json', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Vary': 'Accept-Encoding', 'X-Frame-Options': 'SAMEORIGIN', 'Content-Encoding': 'gzip'}
+body: '{"message": "query result is empty", "status": 10022}'
+[0m
+[31m[47mERROR   [0m [31m******************************** DETAILED REQUEST & RESPONSE ********************************
+====== request details ======
+url: http://www.easytest.xyz/api/get_guest_list/
+method: POST
+headers: {}
+params: {'name': '\t李健'}
+verify: True
+
+====== response details ======
+status_code: 200
+headers: {'Server': 'nginx/1.11.3', 'Date': 'Wed, 09 Oct 2019 14:48:01 GMT', 'Content-Type': 'application/json', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Vary': 'Accept-Encoding', 'X-Frame-Options': 'SAMEORIGIN', 'Content-Encoding': 'gzip'}
+body: '{"message": "query result is empty", "status": 10022}'
+[0m
+[31m[47mERROR   [0m [31m******************************** DETAILED REQUEST & RESPONSE ********************************
+====== request details ======
+url: http://www.easytest.xyz/api/get_guest_list/
+method: POST
+headers: {}
+params: {'name': '\t李健'}
+verify: True
+
+====== response details ======
+status_code: 200
+headers: {'Server': 'nginx/1.11.3', 'Date': 'Wed, 09 Oct 2019 14:48:01 GMT', 'Content-Type': 'application/json', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Vary': 'Accept-Encoding', 'X-Frame-Options': 'SAMEORIGIN', 'Content-Encoding': 'gzip'}
+body: '{"message": "query result is empty", "status": 10022}'
+[0m
+[31m[47mERROR   [0m [31m******************************** DETAILED REQUEST & RESPONSE ********************************
+====== request details ======
+url: http://www.easytest.xyz/api/get_guest_list/
+method: POST
+headers: {}
+params: {'name': '\t李健'}
+verify: True
+
+====== response details ======
+status_code: 200
+headers: {'Server': 'nginx/1.11.3', 'Date': 'Wed, 09 Oct 2019 14:48:01 GMT', 'Content-Type': 'application/json', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Vary': 'Accept-Encoding', 'X-Frame-Options': 'SAMEORIGIN', 'Content-Encoding': 'gzip'}
+body: '{"message": "query result is empty", "status": 10022}'
+[0m
+[31m[47mERROR   [0m [31m******************************** DETAILED REQUEST & RESPONSE ********************************
+====== request details ======
+url: http://www.easytest.xyz/api/get_guest_list/
+method: POST
+headers: {}
+params: {'name': '\t李健'}
+verify: True
+
+====== response details ======
+status_code: 200
+headers: {'Server': 'nginx/1.11.3', 'Date': 'Wed, 09 Oct 2019 14:48:01 GMT', 'Content-Type': 'application/json', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Vary': 'Accept-Encoding', 'X-Frame-Options': 'SAMEORIGIN', 'Content-Encoding': 'gzip'}
+body: '{"message": "query result is empty", "status": 10022}'
+[0m
+[31m[47mERROR   [0m [31m******************************** DETAILED REQUEST & RESPONSE ********************************
+====== request details ======
+url: http://www.easytest.xyz/api/get_guest_list/
+method: POST
+headers: {}
+params: {'name': '\t李健'}
+verify: True
+
+====== response details ======
+status_code: 200
+headers: {'Server': 'nginx/1.11.3', 'Date': 'Wed, 09 Oct 2019 14:48:01 GMT', 'Content-Type': 'application/json', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Vary': 'Accept-Encoding', 'X-Frame-Options': 'SAMEORIGIN', 'Content-Encoding': 'gzip'}
+body: '{"message": "query result is empty", "status": 10022}'
+[0m
+[31m[47mERROR   [0m [31m******************************** DETAILED REQUEST & RESPONSE ********************************
+====== request details ======
+url: http://www.easytest.xyz/api/get_guest_list/
+method: POST
+headers: {}
+params: {'name': '\t李健'}
+verify: True
+
+====== response details ======
+status_code: 200
+headers: {'Server': 'nginx/1.11.3', 'Date': 'Wed, 09 Oct 2019 14:48:01 GMT', 'Content-Type': 'application/json', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Vary': 'Accept-Encoding', 'X-Frame-Options': 'SAMEORIGIN', 'Content-Encoding': 'gzip'}
+body: '{"message": "query result is empty", "status": 10022}'
+[0m
+[32m[47mINFO    [0m [32mStart to render Html report ...[0m
+[32m[47mINFO    [0m [32mStart to render Html report ...[0m
+[32m[47mINFO    [0m [32mStart to render Html report ...[0m
+[32m[47mINFO    [0m [32mStart to render Html report ...[0m
+[32m[47mINFO    [0m [32mStart to render Html report ...[0m
+[32m[47mINFO    [0m [32mStart to render Html report ...[0m
+[32m[47mINFO    [0m [32mStart to render Html report ...[0m
+[32m[47mINFO    [0m [32mStart to render Html report ...[0m
+[32m[47mINFO    [0m [32mGenerated Html report: D:\HttpRunnerManager-1\reports\2019-10-09 22-47-59.html[0m
+[32m[47mINFO    [0m [32mGenerated Html report: D:\HttpRunnerManager-1\reports\2019-10-09 22-47-59.html[0m
+[32m[47mINFO    [0m [32mGenerated Html report: D:\HttpRunnerManager-1\reports\2019-10-09 22-47-59.html[0m
+[32m[47mINFO    [0m [32mGenerated Html report: D:\HttpRunnerManager-1\reports\2019-10-09 22-47-59.html[0m
+[32m[47mINFO    [0m [32mGenerated Html report: D:\HttpRunnerManager-1\reports\2019-10-09 22-47-59.html[0m
+[32m[47mINFO    [0m [32mGenerated Html report: D:\HttpRunnerManager-1\reports\2019-10-09 22-47-59.html[0m
+[32m[47mINFO    [0m [32mGenerated Html report: D:\HttpRunnerManager-1\reports\2019-10-09 22-47-59.html[0m
+[32m[47mINFO    [0m [32mGenerated Html report: D:\HttpRunnerManager-1\reports\2019-10-09 22-47-59.html[0m
+[32m[47mINFO    [0m [32mHttpRunner version: 2.2.5[0m
+[32m[47mINFO    [0m [32mHttpRunner version: 2.2.5[0m
+[32m[47mINFO    [0m [32mHttpRunner version: 2.2.5[0m
+[32m[47mINFO    [0m [32mHttpRunner version: 2.2.5[0m
+[32m[47mINFO    [0m [32mHttpRunner version: 2.2.5[0m
+[32m[47mINFO    [0m [32mHttpRunner version: 2.2.5[0m
+[32m[47mINFO    [0m [32mHttpRunner version: 2.2.5[0m
+[32m[47mINFO    [0m [32mHttpRunner version: 2.2.5[0m
+[32m[47mINFO    [0m [32mHttpRunner version: 2.2.5[0m
+[32m[47mINFO    [0m [32mStart to run testcase: 查询嘉宾接口[0m
+[32m[47mINFO    [0m [32mStart to run testcase: 查询嘉宾接口[0m
+[32m[47mINFO    [0m [32mStart to run testcase: 查询嘉宾接口[0m
+[32m[47mINFO    [0m [32mStart to run testcase: 查询嘉宾接口[0m
+[32m[47mINFO    [0m [32mStart to run testcase: 查询嘉宾接口[0m
+[32m[47mINFO    [0m [32mStart to run testcase: 查询嘉宾接口[0m
+[32m[47mINFO    [0m [32mStart to run testcase: 查询嘉宾接口[0m
+[32m[47mINFO    [0m [32mStart to run testcase: 查询嘉宾接口[0m
+[32m[47mINFO    [0m [32mStart to run testcase: 查询嘉宾接口[0m
+[32m[47mINFO    [0m [32mPOST http://www.easytest.xyz/api/get_guest_list/[0m
+[32m[47mINFO    [0m [32mPOST http://www.easytest.xyz/api/get_guest_list/[0m
+[32m[47mINFO    [0m [32mPOST http://www.easytest.xyz/api/get_guest_list/[0m
+[32m[47mINFO    [0m [32mPOST http://www.easytest.xyz/api/get_guest_list/[0m
+[32m[47mINFO    [0m [32mPOST http://www.easytest.xyz/api/get_guest_list/[0m
+[32m[47mINFO    [0m [32mPOST http://www.easytest.xyz/api/get_guest_list/[0m
+[32m[47mINFO    [0m [32mPOST http://www.easytest.xyz/api/get_guest_list/[0m
+[32m[47mINFO    [0m [32mPOST http://www.easytest.xyz/api/get_guest_list/[0m
+[32m[47mINFO    [0m [32mPOST http://www.easytest.xyz/api/get_guest_list/[0m
+[32m[47mINFO    [0m [32mstatus_code: 200, response_time(ms): 32.95 ms, response_length: 641 bytes
+[0m
+[32m[47mINFO    [0m [32mstatus_code: 200, response_time(ms): 32.95 ms, response_length: 641 bytes
+[0m
+[32m[47mINFO    [0m [32mstatus_code: 200, response_time(ms): 32.95 ms, response_length: 641 bytes
+[0m
+[32m[47mINFO    [0m [32mstatus_code: 200, response_time(ms): 32.95 ms, response_length: 641 bytes
+[0m
+[32m[47mINFO    [0m [32mstatus_code: 200, response_time(ms): 32.95 ms, response_length: 641 bytes
+[0m
+[32m[47mINFO    [0m [32mstatus_code: 200, response_time(ms): 32.95 ms, response_length: 641 bytes
+[0m
+[32m[47mINFO    [0m [32mstatus_code: 200, response_time(ms): 32.95 ms, response_length: 641 bytes
+[0m
+[32m[47mINFO    [0m [32mstatus_code: 200, response_time(ms): 32.95 ms, response_length: 641 bytes
+[0m
+[32m[47mINFO    [0m [32mstatus_code: 200, response_time(ms): 32.95 ms, response_length: 641 bytes
+[0m
+[32m[47mINFO    [0m [32mStart to render Html report ...[0m
+[32m[47mINFO    [0m [32mStart to render Html report ...[0m
+[32m[47mINFO    [0m [32mStart to render Html report ...[0m
+[32m[47mINFO    [0m [32mStart to render Html report ...[0m
+[32m[47mINFO    [0m [32mStart to render Html report ...[0m
+[32m[47mINFO    [0m [32mStart to render Html report ...[0m
+[32m[47mINFO    [0m [32mStart to render Html report ...[0m
+[32m[47mINFO    [0m [32mStart to render Html report ...[0m
+[32m[47mINFO    [0m [32mStart to render Html report ...[0m
+[32m[47mINFO    [0m [32mGenerated Html report: D:\HttpRunnerManager-1\reports\2019-10-09 22-48-33.html[0m
+[32m[47mINFO    [0m [32mGenerated Html report: D:\HttpRunnerManager-1\reports\2019-10-09 22-48-33.html[0m
+[32m[47mINFO    [0m [32mGenerated Html report: D:\HttpRunnerManager-1\reports\2019-10-09 22-48-33.html[0m
+[32m[47mINFO    [0m [32mGenerated Html report: D:\HttpRunnerManager-1\reports\2019-10-09 22-48-33.html[0m
+[32m[47mINFO    [0m [32mGenerated Html report: D:\HttpRunnerManager-1\reports\2019-10-09 22-48-33.html[0m
+[32m[47mINFO    [0m [32mGenerated Html report: D:\HttpRunnerManager-1\reports\2019-10-09 22-48-33.html[0m
+[32m[47mINFO    [0m [32mGenerated Html report: D:\HttpRunnerManager-1\reports\2019-10-09 22-48-33.html[0m
+[32m[47mINFO    [0m [32mGenerated Html report: D:\HttpRunnerManager-1\reports\2019-10-09 22-48-33.html[0m
+[32m[47mINFO    [0m [32mGenerated Html report: D:\HttpRunnerManager-1\reports\2019-10-09 22-48-33.html[0m
+[32m[47mINFO    [0m [32mHttpRunner version: 2.2.5[0m
+[32m[47mINFO    [0m [32mHttpRunner version: 2.2.5[0m
+[32m[47mINFO    [0m [32mHttpRunner version: 2.2.5[0m
+[32m[47mINFO    [0m [32mHttpRunner version: 2.2.5[0m
+[32m[47mINFO    [0m [32mHttpRunner version: 2.2.5[0m
+[32m[47mINFO    [0m [32mHttpRunner version: 2.2.5[0m
+[32m[47mINFO    [0m [32mHttpRunner version: 2.2.5[0m
+[32m[47mINFO    [0m [32mHttpRunner version: 2.2.5[0m
+[32m[47mINFO    [0m [32mHttpRunner version: 2.2.5[0m
+[32m[47mINFO    [0m [32mHttpRunner version: 2.2.5[0m
+[32m[47mINFO    [0m [32mStart to run testcase: 查询嘉宾接口[0m
+[32m[47mINFO    [0m [32mStart to run testcase: 查询嘉宾接口[0m
+[32m[47mINFO    [0m [32mStart to run testcase: 查询嘉宾接口[0m
+[32m[47mINFO    [0m [32mStart to run testcase: 查询嘉宾接口[0m
+[32m[47mINFO    [0m [32mStart to run testcase: 查询嘉宾接口[0m
+[32m[47mINFO    [0m [32mStart to run testcase: 查询嘉宾接口[0m
+[32m[47mINFO    [0m [32mStart to run testcase: 查询嘉宾接口[0m
+[32m[47mINFO    [0m [32mStart to run testcase: 查询嘉宾接口[0m
+[32m[47mINFO    [0m [32mStart to run testcase: 查询嘉宾接口[0m
+[32m[47mINFO    [0m [32mStart to run testcase: 查询嘉宾接口[0m
+[32m[47mINFO    [0m [32mPOST http://www.easytest.xyz/api/get_guest_list/[0m
+[32m[47mINFO    [0m [32mPOST http://www.easytest.xyz/api/get_guest_list/[0m
+[32m[47mINFO    [0m [32mPOST http://www.easytest.xyz/api/get_guest_list/[0m
+[32m[47mINFO    [0m [32mPOST http://www.easytest.xyz/api/get_guest_list/[0m
+[32m[47mINFO    [0m [32mPOST http://www.easytest.xyz/api/get_guest_list/[0m
+[32m[47mINFO    [0m [32mPOST http://www.easytest.xyz/api/get_guest_list/[0m
+[32m[47mINFO    [0m [32mPOST http://www.easytest.xyz/api/get_guest_list/[0m
+[32m[47mINFO    [0m [32mPOST http://www.easytest.xyz/api/get_guest_list/[0m
+[32m[47mINFO    [0m [32mPOST http://www.easytest.xyz/api/get_guest_list/[0m
+[32m[47mINFO    [0m [32mPOST http://www.easytest.xyz/api/get_guest_list/[0m
+[32m[47mINFO    [0m [32mstatus_code: 200, response_time(ms): 36.9 ms, response_length: 641 bytes
+[0m
+[32m[47mINFO    [0m [32mstatus_code: 200, response_time(ms): 36.9 ms, response_length: 641 bytes
+[0m
+[32m[47mINFO    [0m [32mstatus_code: 200, response_time(ms): 36.9 ms, response_length: 641 bytes
+[0m
+[32m[47mINFO    [0m [32mstatus_code: 200, response_time(ms): 36.9 ms, response_length: 641 bytes
+[0m
+[32m[47mINFO    [0m [32mstatus_code: 200, response_time(ms): 36.9 ms, response_length: 641 bytes
+[0m
+[32m[47mINFO    [0m [32mstatus_code: 200, response_time(ms): 36.9 ms, response_length: 641 bytes
+[0m
+[32m[47mINFO    [0m [32mstatus_code: 200, response_time(ms): 36.9 ms, response_length: 641 bytes
+[0m
+[32m[47mINFO    [0m [32mstatus_code: 200, response_time(ms): 36.9 ms, response_length: 641 bytes
+[0m
+[32m[47mINFO    [0m [32mstatus_code: 200, response_time(ms): 36.9 ms, response_length: 641 bytes
+[0m
+[32m[47mINFO    [0m [32mstatus_code: 200, response_time(ms): 36.9 ms, response_length: 641 bytes
+[0m
+[32m[47mINFO    [0m [32mStart to render Html report ...[0m
+[32m[47mINFO    [0m [32mStart to render Html report ...[0m
+[32m[47mINFO    [0m [32mStart to render Html report ...[0m
+[32m[47mINFO    [0m [32mStart to render Html report ...[0m
+[32m[47mINFO    [0m [32mStart to render Html report ...[0m
+[32m[47mINFO    [0m [32mStart to render Html report ...[0m
+[32m[47mINFO    [0m [32mStart to render Html report ...[0m
+[32m[47mINFO    [0m [32mStart to render Html report ...[0m
+[32m[47mINFO    [0m [32mStart to render Html report ...[0m
+[32m[47mINFO    [0m [32mStart to render Html report ...[0m
+[32m[47mINFO    [0m [32mGenerated Html report: D:\HttpRunnerManager-1\reports\2019-10-09 22-49-27.html[0m
+[32m[47mINFO    [0m [32mGenerated Html report: D:\HttpRunnerManager-1\reports\2019-10-09 22-49-27.html[0m
+[32m[47mINFO    [0m [32mGenerated Html report: D:\HttpRunnerManager-1\reports\2019-10-09 22-49-27.html[0m
+[32m[47mINFO    [0m [32mGenerated Html report: D:\HttpRunnerManager-1\reports\2019-10-09 22-49-27.html[0m
+[32m[47mINFO    [0m [32mGenerated Html report: D:\HttpRunnerManager-1\reports\2019-10-09 22-49-27.html[0m
+[32m[47mINFO    [0m [32mGenerated Html report: D:\HttpRunnerManager-1\reports\2019-10-09 22-49-27.html[0m
+[32m[47mINFO    [0m [32mGenerated Html report: D:\HttpRunnerManager-1\reports\2019-10-09 22-49-27.html[0m
+[32m[47mINFO    [0m [32mGenerated Html report: D:\HttpRunnerManager-1\reports\2019-10-09 22-49-27.html[0m
+[32m[47mINFO    [0m [32mGenerated Html report: D:\HttpRunnerManager-1\reports\2019-10-09 22-49-27.html[0m
+[32m[47mINFO    [0m [32mGenerated Html report: D:\HttpRunnerManager-1\reports\2019-10-09 22-49-27.html[0m
+[32m[47mINFO    [0m [32mHttpRunner version: 2.2.5[0m
+[32m[47mINFO    [0m [32mHttpRunner version: 2.2.5[0m
+[32m[47mINFO    [0m [32mHttpRunner version: 2.2.5[0m
+[32m[47mINFO    [0m [32mHttpRunner version: 2.2.5[0m
+[32m[47mINFO    [0m [32mHttpRunner version: 2.2.5[0m
+[32m[47mINFO    [0m [32mHttpRunner version: 2.2.5[0m
+[32m[47mINFO    [0m [32mHttpRunner version: 2.2.5[0m
+[32m[47mINFO    [0m [32mHttpRunner version: 2.2.5[0m
+[32m[47mINFO    [0m [32mHttpRunner version: 2.2.5[0m
+[32m[47mINFO    [0m [32mHttpRunner version: 2.2.5[0m
+[32m[47mINFO    [0m [32mHttpRunner version: 2.2.5[0m
+[32m[47mINFO    [0m [32mStart to run testcase: 查询嘉宾接口[0m
+[32m[47mINFO    [0m [32mStart to run testcase: 查询嘉宾接口[0m
+[32m[47mINFO    [0m [32mStart to run testcase: 查询嘉宾接口[0m
+[32m[47mINFO    [0m [32mStart to run testcase: 查询嘉宾接口[0m
+[32m[47mINFO    [0m [32mStart to run testcase: 查询嘉宾接口[0m
+[32m[47mINFO    [0m [32mStart to run testcase: 查询嘉宾接口[0m
+[32m[47mINFO    [0m [32mStart to run testcase: 查询嘉宾接口[0m
+[32m[47mINFO    [0m [32mStart to run testcase: 查询嘉宾接口[0m
+[32m[47mINFO    [0m [32mStart to run testcase: 查询嘉宾接口[0m
+[32m[47mINFO    [0m [32mStart to run testcase: 查询嘉宾接口[0m
+[32m[47mINFO    [0m [32mStart to run testcase: 查询嘉宾接口[0m
+[32m[47mINFO    [0m [32mPOST http://www.easytest.xyz/api/get_guest_list/[0m
+[32m[47mINFO    [0m [32mPOST http://www.easytest.xyz/api/get_guest_list/[0m
+[32m[47mINFO    [0m [32mPOST http://www.easytest.xyz/api/get_guest_list/[0m
+[32m[47mINFO    [0m [32mPOST http://www.easytest.xyz/api/get_guest_list/[0m
+[32m[47mINFO    [0m [32mPOST http://www.easytest.xyz/api/get_guest_list/[0m
+[32m[47mINFO    [0m [32mPOST http://www.easytest.xyz/api/get_guest_list/[0m
+[32m[47mINFO    [0m [32mPOST http://www.easytest.xyz/api/get_guest_list/[0m
+[32m[47mINFO    [0m [32mPOST http://www.easytest.xyz/api/get_guest_list/[0m
+[32m[47mINFO    [0m [32mPOST http://www.easytest.xyz/api/get_guest_list/[0m
+[32m[47mINFO    [0m [32mPOST http://www.easytest.xyz/api/get_guest_list/[0m
+[32m[47mINFO    [0m [32mPOST http://www.easytest.xyz/api/get_guest_list/[0m
+[32m[47mINFO    [0m [32mstatus_code: 200, response_time(ms): 44.32 ms, response_length: 641 bytes
+[0m
+[32m[47mINFO    [0m [32mstatus_code: 200, response_time(ms): 44.32 ms, response_length: 641 bytes
+[0m
+[32m[47mINFO    [0m [32mstatus_code: 200, response_time(ms): 44.32 ms, response_length: 641 bytes
+[0m
+[32m[47mINFO    [0m [32mstatus_code: 200, response_time(ms): 44.32 ms, response_length: 641 bytes
+[0m
+[32m[47mINFO    [0m [32mstatus_code: 200, response_time(ms): 44.32 ms, response_length: 641 bytes
+[0m
+[32m[47mINFO    [0m [32mstatus_code: 200, response_time(ms): 44.32 ms, response_length: 641 bytes
+[0m
+[32m[47mINFO    [0m [32mstatus_code: 200, response_time(ms): 44.32 ms, response_length: 641 bytes
+[0m
+[32m[47mINFO    [0m [32mstatus_code: 200, response_time(ms): 44.32 ms, response_length: 641 bytes
+[0m
+[32m[47mINFO    [0m [32mstatus_code: 200, response_time(ms): 44.32 ms, response_length: 641 bytes
+[0m
+[32m[47mINFO    [0m [32mstatus_code: 200, response_time(ms): 44.32 ms, response_length: 641 bytes
+[0m
+[32m[47mINFO    [0m [32mstatus_code: 200, response_time(ms): 44.32 ms, response_length: 641 bytes
+[0m
+[32m[47mINFO    [0m [32mStart to render Html report ...[0m
+[32m[47mINFO    [0m [32mStart to render Html report ...[0m
+[32m[47mINFO    [0m [32mStart to render Html report ...[0m
+[32m[47mINFO    [0m [32mStart to render Html report ...[0m
+[32m[47mINFO    [0m [32mStart to render Html report ...[0m
+[32m[47mINFO    [0m [32mStart to render Html report ...[0m
+[32m[47mINFO    [0m [32mStart to render Html report ...[0m
+[32m[47mINFO    [0m [32mStart to render Html report ...[0m
+[32m[47mINFO    [0m [32mStart to render Html report ...[0m
+[32m[47mINFO    [0m [32mStart to render Html report ...[0m
+[32m[47mINFO    [0m [32mStart to render Html report ...[0m
+[32m[47mINFO    [0m [32mGenerated Html report: D:\HttpRunnerManager-1\reports\2019-10-09 22-49-40.html[0m
+[32m[47mINFO    [0m [32mGenerated Html report: D:\HttpRunnerManager-1\reports\2019-10-09 22-49-40.html[0m
+[32m[47mINFO    [0m [32mGenerated Html report: D:\HttpRunnerManager-1\reports\2019-10-09 22-49-40.html[0m
+[32m[47mINFO    [0m [32mGenerated Html report: D:\HttpRunnerManager-1\reports\2019-10-09 22-49-40.html[0m
+[32m[47mINFO    [0m [32mGenerated Html report: D:\HttpRunnerManager-1\reports\2019-10-09 22-49-40.html[0m
+[32m[47mINFO    [0m [32mGenerated Html report: D:\HttpRunnerManager-1\reports\2019-10-09 22-49-40.html[0m
+[32m[47mINFO    [0m [32mGenerated Html report: D:\HttpRunnerManager-1\reports\2019-10-09 22-49-40.html[0m
+[32m[47mINFO    [0m [32mGenerated Html report: D:\HttpRunnerManager-1\reports\2019-10-09 22-49-40.html[0m
+[32m[47mINFO    [0m [32mGenerated Html report: D:\HttpRunnerManager-1\reports\2019-10-09 22-49-40.html[0m
+[32m[47mINFO    [0m [32mGenerated Html report: D:\HttpRunnerManager-1\reports\2019-10-09 22-49-40.html[0m
+[32m[47mINFO    [0m [32mGenerated Html report: D:\HttpRunnerManager-1\reports\2019-10-09 22-49-40.html[0m
+[32m[47mINFO    [0m [32mHttpRunner version: 2.2.5[0m
+[32m[47mINFO    [0m [32mHttpRunner version: 2.2.5[0m
+[32m[47mINFO    [0m [32mHttpRunner version: 2.2.5[0m
+[32m[47mINFO    [0m [32mHttpRunner version: 2.2.5[0m
+[32m[47mINFO    [0m [32mHttpRunner version: 2.2.5[0m
+[32m[47mINFO    [0m [32mHttpRunner version: 2.2.5[0m
+[32m[47mINFO    [0m [32mHttpRunner version: 2.2.5[0m
+[32m[47mINFO    [0m [32mHttpRunner version: 2.2.5[0m
+[32m[47mINFO    [0m [32mHttpRunner version: 2.2.5[0m
+[32m[47mINFO    [0m [32mHttpRunner version: 2.2.5[0m
+[32m[47mINFO    [0m [32mHttpRunner version: 2.2.5[0m
+[32m[47mINFO    [0m [32mHttpRunner version: 2.2.5[0m
+[32m[47mINFO    [0m [32mStart to run testcase: 查询发布会接口[0m
+[32m[47mINFO    [0m [32mStart to run testcase: 查询发布会接口[0m
+[32m[47mINFO    [0m [32mStart to run testcase: 查询发布会接口[0m
+[32m[47mINFO    [0m [32mStart to run testcase: 查询发布会接口[0m
+[32m[47mINFO    [0m [32mStart to run testcase: 查询发布会接口[0m
+[32m[47mINFO    [0m [32mStart to run testcase: 查询发布会接口[0m
+[32m[47mINFO    [0m [32mStart to run testcase: 查询发布会接口[0m
+[32m[47mINFO    [0m [32mStart to run testcase: 查询发布会接口[0m
+[32m[47mINFO    [0m [32mStart to run testcase: 查询发布会接口[0m
+[32m[47mINFO    [0m [32mStart to run testcase: 查询发布会接口[0m
+[32m[47mINFO    [0m [32mStart to run testcase: 查询发布会接口[0m
+[32m[47mINFO    [0m [32mStart to run testcase: 查询发布会接口[0m
+[32m[47mINFO    [0m [32mGET http://www.easytest.xyz/api/get_event_list/[0m
+[32m[47mINFO    [0m [32mGET http://www.easytest.xyz/api/get_event_list/[0m
+[32m[47mINFO    [0m [32mGET http://www.easytest.xyz/api/get_event_list/[0m
+[32m[47mINFO    [0m [32mGET http://www.easytest.xyz/api/get_event_list/[0m
+[32m[47mINFO    [0m [32mGET http://www.easytest.xyz/api/get_event_list/[0m
+[32m[47mINFO    [0m [32mGET http://www.easytest.xyz/api/get_event_list/[0m
+[32m[47mINFO    [0m [32mGET http://www.easytest.xyz/api/get_event_list/[0m
+[32m[47mINFO    [0m [32mGET http://www.easytest.xyz/api/get_event_list/[0m
+[32m[47mINFO    [0m [32mGET http://www.easytest.xyz/api/get_event_list/[0m
+[32m[47mINFO    [0m [32mGET http://www.easytest.xyz/api/get_event_list/[0m
+[32m[47mINFO    [0m [32mGET http://www.easytest.xyz/api/get_event_list/[0m
+[32m[47mINFO    [0m [32mGET http://www.easytest.xyz/api/get_event_list/[0m
+[32m[47mINFO    [0m [32mstatus_code: 200, response_time(ms): 28.92 ms, response_length: 252 bytes
+[0m
+[32m[47mINFO    [0m [32mstatus_code: 200, response_time(ms): 28.92 ms, response_length: 252 bytes
+[0m
+[32m[47mINFO    [0m [32mstatus_code: 200, response_time(ms): 28.92 ms, response_length: 252 bytes
+[0m
+[32m[47mINFO    [0m [32mstatus_code: 200, response_time(ms): 28.92 ms, response_length: 252 bytes
+[0m
+[32m[47mINFO    [0m [32mstatus_code: 200, response_time(ms): 28.92 ms, response_length: 252 bytes
+[0m
+[32m[47mINFO    [0m [32mstatus_code: 200, response_time(ms): 28.92 ms, response_length: 252 bytes
+[0m
+[32m[47mINFO    [0m [32mstatus_code: 200, response_time(ms): 28.92 ms, response_length: 252 bytes
+[0m
+[32m[47mINFO    [0m [32mstatus_code: 200, response_time(ms): 28.92 ms, response_length: 252 bytes
+[0m
+[32m[47mINFO    [0m [32mstatus_code: 200, response_time(ms): 28.92 ms, response_length: 252 bytes
+[0m
+[32m[47mINFO    [0m [32mstatus_code: 200, response_time(ms): 28.92 ms, response_length: 252 bytes
+[0m
+[32m[47mINFO    [0m [32mstatus_code: 200, response_time(ms): 28.92 ms, response_length: 252 bytes
+[0m
+[32m[47mINFO    [0m [32mstatus_code: 200, response_time(ms): 28.92 ms, response_length: 252 bytes
+[0m
+[32m[47mINFO    [0m [32mStart to run testcase: 查询嘉宾接口[0m
+[32m[47mINFO    [0m [32mStart to run testcase: 查询嘉宾接口[0m
+[32m[47mINFO    [0m [32mStart to run testcase: 查询嘉宾接口[0m
+[32m[47mINFO    [0m [32mStart to run testcase: 查询嘉宾接口[0m
+[32m[47mINFO    [0m [32mStart to run testcase: 查询嘉宾接口[0m
+[32m[47mINFO    [0m [32mStart to run testcase: 查询嘉宾接口[0m
+[32m[47mINFO    [0m [32mStart to run testcase: 查询嘉宾接口[0m
+[32m[47mINFO    [0m [32mStart to run testcase: 查询嘉宾接口[0m
+[32m[47mINFO    [0m [32mStart to run testcase: 查询嘉宾接口[0m
+[32m[47mINFO    [0m [32mStart to run testcase: 查询嘉宾接口[0m
+[32m[47mINFO    [0m [32mStart to run testcase: 查询嘉宾接口[0m
+[32m[47mINFO    [0m [32mStart to run testcase: 查询嘉宾接口[0m
+[32m[47mINFO    [0m [32mPOST http://www.easytest.xyz/api/get_guest_list/[0m
+[32m[47mINFO    [0m [32mPOST http://www.easytest.xyz/api/get_guest_list/[0m
+[32m[47mINFO    [0m [32mPOST http://www.easytest.xyz/api/get_guest_list/[0m
+[32m[47mINFO    [0m [32mPOST http://www.easytest.xyz/api/get_guest_list/[0m
+[32m[47mINFO    [0m [32mPOST http://www.easytest.xyz/api/get_guest_list/[0m
+[32m[47mINFO    [0m [32mPOST http://www.easytest.xyz/api/get_guest_list/[0m
+[32m[47mINFO    [0m [32mPOST http://www.easytest.xyz/api/get_guest_list/[0m
+[32m[47mINFO    [0m [32mPOST http://www.easytest.xyz/api/get_guest_list/[0m
+[32m[47mINFO    [0m [32mPOST http://www.easytest.xyz/api/get_guest_list/[0m
+[32m[47mINFO    [0m [32mPOST http://www.easytest.xyz/api/get_guest_list/[0m
+[32m[47mINFO    [0m [32mPOST http://www.easytest.xyz/api/get_guest_list/[0m
+[32m[47mINFO    [0m [32mPOST http://www.easytest.xyz/api/get_guest_list/[0m
+[32m[47mINFO    [0m [32mstatus_code: 200, response_time(ms): 60.81 ms, response_length: 641 bytes
+[0m
+[32m[47mINFO    [0m [32mstatus_code: 200, response_time(ms): 60.81 ms, response_length: 641 bytes
+[0m
+[32m[47mINFO    [0m [32mstatus_code: 200, response_time(ms): 60.81 ms, response_length: 641 bytes
+[0m
+[32m[47mINFO    [0m [32mstatus_code: 200, response_time(ms): 60.81 ms, response_length: 641 bytes
+[0m
+[32m[47mINFO    [0m [32mstatus_code: 200, response_time(ms): 60.81 ms, response_length: 641 bytes
+[0m
+[32m[47mINFO    [0m [32mstatus_code: 200, response_time(ms): 60.81 ms, response_length: 641 bytes
+[0m
+[32m[47mINFO    [0m [32mstatus_code: 200, response_time(ms): 60.81 ms, response_length: 641 bytes
+[0m
+[32m[47mINFO    [0m [32mstatus_code: 200, response_time(ms): 60.81 ms, response_length: 641 bytes
+[0m
+[32m[47mINFO    [0m [32mstatus_code: 200, response_time(ms): 60.81 ms, response_length: 641 bytes
+[0m
+[32m[47mINFO    [0m [32mstatus_code: 200, response_time(ms): 60.81 ms, response_length: 641 bytes
+[0m
+[32m[47mINFO    [0m [32mstatus_code: 200, response_time(ms): 60.81 ms, response_length: 641 bytes
+[0m
+[32m[47mINFO    [0m [32mstatus_code: 200, response_time(ms): 60.81 ms, response_length: 641 bytes
+[0m
+[32m[47mINFO    [0m [32mStart to render Html report ...[0m
+[32m[47mINFO    [0m [32mStart to render Html report ...[0m
+[32m[47mINFO    [0m [32mStart to render Html report ...[0m
+[32m[47mINFO    [0m [32mStart to render Html report ...[0m
+[32m[47mINFO    [0m [32mStart to render Html report ...[0m
+[32m[47mINFO    [0m [32mStart to render Html report ...[0m
+[32m[47mINFO    [0m [32mStart to render Html report ...[0m
+[32m[47mINFO    [0m [32mStart to render Html report ...[0m
+[32m[47mINFO    [0m [32mStart to render Html report ...[0m
+[32m[47mINFO    [0m [32mStart to render Html report ...[0m
+[32m[47mINFO    [0m [32mStart to render Html report ...[0m
+[32m[47mINFO    [0m [32mStart to render Html report ...[0m
+[32m[47mINFO    [0m [32mGenerated Html report: D:\HttpRunnerManager-1\reports\2019-10-09 22-50-59.html[0m
+[32m[47mINFO    [0m [32mGenerated Html report: D:\HttpRunnerManager-1\reports\2019-10-09 22-50-59.html[0m
+[32m[47mINFO    [0m [32mGenerated Html report: D:\HttpRunnerManager-1\reports\2019-10-09 22-50-59.html[0m
+[32m[47mINFO    [0m [32mGenerated Html report: D:\HttpRunnerManager-1\reports\2019-10-09 22-50-59.html[0m
+[32m[47mINFO    [0m [32mGenerated Html report: D:\HttpRunnerManager-1\reports\2019-10-09 22-50-59.html[0m
+[32m[47mINFO    [0m [32mGenerated Html report: D:\HttpRunnerManager-1\reports\2019-10-09 22-50-59.html[0m
+[32m[47mINFO    [0m [32mGenerated Html report: D:\HttpRunnerManager-1\reports\2019-10-09 22-50-59.html[0m
+[32m[47mINFO    [0m [32mGenerated Html report: D:\HttpRunnerManager-1\reports\2019-10-09 22-50-59.html[0m
+[32m[47mINFO    [0m [32mGenerated Html report: D:\HttpRunnerManager-1\reports\2019-10-09 22-50-59.html[0m
+[32m[47mINFO    [0m [32mGenerated Html report: D:\HttpRunnerManager-1\reports\2019-10-09 22-50-59.html[0m
+[32m[47mINFO    [0m [32mGenerated Html report: D:\HttpRunnerManager-1\reports\2019-10-09 22-50-59.html[0m
+[32m[47mINFO    [0m [32mGenerated Html report: D:\HttpRunnerManager-1\reports\2019-10-09 22-50-59.html[0m
+[32m[47mINFO    [0m [32mHttpRunner version: 2.2.5[0m
+[32m[47mINFO    [0m [32mStart to run testcase: 查询发布会接口[0m
+[32m[47mINFO    [0m [32mGET http://www.easytest.xyz/api/get_event_list/[0m
+[32m[47mINFO    [0m [32mstatus_code: 200, response_time(ms): 48.38 ms, response_length: 252 bytes
+[0m
+[32m[47mINFO    [0m [32mStart to run testcase: 查询嘉宾接口[0m
+[32m[47mINFO    [0m [32mPOST http://www.easytest.xyz/api/get_guest_list/[0m
+[32m[47mINFO    [0m [32mstatus_code: 200, response_time(ms): 58.85 ms, response_length: 641 bytes
+[0m
+[32m[47mINFO    [0m [32mStart to render Html report ...[0m
+[32m[47mINFO    [0m [32mGenerated Html report: D:\HttpRunnerManager-1\reports\2019-10-09 22-53-29.html[0m
+[32m[47mINFO    [0m [32mHttpRunner version: 2.2.5[0m
+[32m[47mINFO    [0m [32mStart to run testcase: 查询发布会接口[0m
+[32m[47mINFO    [0m [32mGET http://www.easytest.xyz/api/get_event_list/[0m
+[32m[47mINFO    [0m [32mstatus_code: 200, response_time(ms): 115.99 ms, response_length: 252 bytes
+[0m
+[32m[47mINFO    [0m [32mStart to run testcase: 查询嘉宾接口[0m
+[32m[47mINFO    [0m [32mPOST http://www.easytest.xyz/api/get_guest_list/[0m
+[32m[47mINFO    [0m [32mstatus_code: 200, response_time(ms): 50.02 ms, response_length: 641 bytes
+[0m
+[32m[47mINFO    [0m [32mStart to render Html report ...[0m
+[32m[47mINFO    [0m [32mGenerated Html report: D:\HttpRunnerManager-1\reports\2019-10-09 22-56-48.html[0m
+[32m[47mINFO    [0m [32mHttpRunner version: 2.2.5[0m
+[32m[47mINFO    [0m [32mStart to run testcase: 查询发布会接口[0m
+[32m[47mINFO    [0m [32mGET http://www.easytest.xyz/api/get_event_list/[0m
+[32m[47mINFO    [0m [32mstatus_code: 200, response_time(ms): 157.26 ms, response_length: 252 bytes
+[0m
+[32m[47mINFO    [0m [32mStart to run testcase: 查询嘉宾接口[0m
+[32m[47mINFO    [0m [32mPOST http://www.easytest.xyz/api/get_guest_list/[0m
+[32m[47mINFO    [0m [32mstatus_code: 200, response_time(ms): 33.91 ms, response_length: 641 bytes
+[0m
+[32m[47mINFO    [0m [32mStart to render Html report ...[0m
+[32m[47mINFO    [0m [32mGenerated Html report: D:\HttpRunnerManager-1\reports\2019-10-09 22-58-12.html[0m
+[32m[47mINFO    [0m [32mHttpRunner version: 2.2.5[0m
+[32m[47mINFO    [0m [32mStart to run testcase: 查询发布会接口[0m
+[32m[47mINFO    [0m [32mGET http://www.easytest.xyz/api/get_event_list/[0m
+[32m[47mINFO    [0m [32mstatus_code: 200, response_time(ms): 110.88 ms, response_length: 252 bytes
+[0m
+[32m[47mINFO    [0m [32mStart to run testcase: 查询嘉宾接口[0m
+[32m[47mINFO    [0m [32mPOST http://www.easytest.xyz/api/get_guest_list/[0m
+[32m[47mINFO    [0m [32mstatus_code: 200, response_time(ms): 41.89 ms, response_length: 641 bytes
+[0m
+[32m[47mINFO    [0m [32mStart to render Html report ...[0m
+[32m[47mINFO    [0m [32mGenerated Html report: D:\HttpRunnerManager-1\reports\2019-10-09 23-08-40.html[0m
+[32m[47mINFO    [0m [32mHttpRunner version: 2.2.5[0m
+[32m[47mINFO    [0m [32mStart to run testcase: 查询发布会接口[0m
+[32m[47mINFO    [0m [32mGET http://www.easytest.xyz/api/get_event_list/[0m
+[32m[47mINFO    [0m [32mstatus_code: 200, response_time(ms): 107.1 ms, response_length: 252 bytes
+[0m
+[32m[47mINFO    [0m [32mStart to run testcase: 查询嘉宾接口[0m
+[32m[47mINFO    [0m [32mPOST http://www.easytest.xyz/api/get_guest_list/[0m
+[32m[47mINFO    [0m [32mstatus_code: 200, response_time(ms): 29.92 ms, response_length: 641 bytes
+[0m
+[32m[47mINFO    [0m [32mStart to render Html report ...[0m
+[32m[47mINFO    [0m [32mGenerated Html report: D:\HttpRunnerManager-1\reports\2019-10-09 23-09-54.html[0m
+[32m[47mINFO    [0m [32mHttpRunner version: 2.2.5[0m
+[32m[47mINFO    [0m [32mStart to run testcase: 查询发布会接口[0m
+[32m[47mINFO    [0m [32mGET http://www.easytest.xyz/api/get_event_list/[0m
+[32m[47mINFO    [0m [32mstatus_code: 200, response_time(ms): 35.91 ms, response_length: 252 bytes
+[0m
+[32m[47mINFO    [0m [32mStart to run testcase: 查询嘉宾接口[0m
+[32m[47mINFO    [0m [32mPOST http://www.easytest.xyz/api/get_guest_list/[0m
+[32m[47mINFO    [0m [32mstatus_code: 200, response_time(ms): 29.92 ms, response_length: 641 bytes
+[0m
+[32m[47mINFO    [0m [32mStart to render Html report ...[0m
+[32m[47mINFO    [0m [32mGenerated Html report: D:\HttpRunnerManager-1\reports\2019-10-09 23-11-22.html[0m
+[32m[47mINFO    [0m [32mHttpRunner version: 2.2.5[0m
+[32m[47mINFO    [0m [32mStart to run testcase: 查询发布会接口[0m
+[32m[47mINFO    [0m [32mGET http://www.easytest.xyz/api/get_event_list/[0m
+[32m[47mINFO    [0m [32mstatus_code: 200, response_time(ms): 33.91 ms, response_length: 252 bytes
+[0m
+[32m[47mINFO    [0m [32mStart to run testcase: 查询嘉宾接口[0m
+[32m[47mINFO    [0m [32mPOST http://www.easytest.xyz/api/get_guest_list/[0m
+[32m[47mINFO    [0m [32mstatus_code: 200, response_time(ms): 28.96 ms, response_length: 641 bytes
+[0m
+[32m[47mINFO    [0m [32mStart to render Html report ...[0m
+[32m[47mINFO    [0m [32mGenerated Html report: D:\HttpRunnerManager-1\reports\2019-10-09 23-12-50.html[0m
+[32m[47mINFO    [0m [32mHttpRunner version: 2.2.5[0m
+[32m[47mINFO    [0m [32mStart to run testcase: 查询发布会接口[0m
+[32m[47mINFO    [0m [32mGET http://www.easytest.xyz/api/get_event_list/[0m
+[32m[47mINFO    [0m [32mstatus_code: 200, response_time(ms): 32.9 ms, response_length: 252 bytes
+[0m
+[32m[47mINFO    [0m [32mStart to run testcase: 查询嘉宾接口[0m
+[32m[47mINFO    [0m [32mPOST http://www.easytest.xyz/api/get_guest_list/[0m
+[32m[47mINFO    [0m [32mstatus_code: 200, response_time(ms): 33.49 ms, response_length: 641 bytes
+[0m
+[32m[47mINFO    [0m [32mStart to render Html report ...[0m
+[32m[47mINFO    [0m [32mGenerated Html report: D:\HttpRunnerManager-1\reports\2019-10-09 23-16-06.html[0m
+[32m[47mINFO    [0m [32mHttpRunner version: 2.2.5[0m
+[32m[47mINFO    [0m [32mStart to run testcase: 查询发布会接口[0m
+[32m[47mINFO    [0m [32mGET http://www.easytest.xyz/api/get_event_list/[0m
+[32m[47mINFO    [0m [32mstatus_code: 200, response_time(ms): 39.89 ms, response_length: 252 bytes
+[0m
+[32m[47mINFO    [0m [32mStart to run testcase: 查询嘉宾接口[0m
+[32m[47mINFO    [0m [32mPOST http://www.easytest.xyz/api/get_guest_list/[0m
+[32m[47mINFO    [0m [32mstatus_code: 200, response_time(ms): 36.42 ms, response_length: 641 bytes
+[0m
+[32m[47mINFO    [0m [32mStart to render Html report ...[0m
+[32m[47mINFO    [0m [32mGenerated Html report: D:\HttpRunnerManager-1\reports\2019-10-09 23-16-30.html[0m
+[32m[47mINFO    [0m [32mHttpRunner version: 2.2.5[0m
+[32m[47mINFO    [0m [32mStart to run testcase: 查询发布会接口[0m
+[32m[47mINFO    [0m [32mGET http://www.easytest.xyz/api/get_event_list/[0m
+[32m[47mINFO    [0m [32mstatus_code: 200, response_time(ms): 53.86 ms, response_length: 252 bytes
+[0m
+[32m[47mINFO    [0m [32mStart to run testcase: 查询嘉宾接口[0m
+[32m[47mINFO    [0m [32mPOST http://www.easytest.xyz/api/get_guest_list/[0m
+[32m[47mINFO    [0m [32mstatus_code: 200, response_time(ms): 33.94 ms, response_length: 641 bytes
+[0m
+[32m[47mINFO    [0m [32mStart to render Html report ...[0m
+[32m[47mINFO    [0m [32mGenerated Html report: D:\HttpRunnerManager-1\reports\2019-10-09 23-18-33.html[0m
+[32m[47mINFO    [0m [32mHttpRunner version: 2.2.5[0m
+[32m[47mINFO    [0m [32mStart to run testcase: 查询发布会接口[0m
+[32m[47mINFO    [0m [32mGET http://www.easytest.xyz/api/get_event_list/[0m
+[32m[47mINFO    [0m [32mstatus_code: 200, response_time(ms): 167.04 ms, response_length: 252 bytes
+[0m
+[32m[47mINFO    [0m [32mStart to run testcase: 查询嘉宾接口[0m
+[32m[47mINFO    [0m [32mPOST http://www.easytest.xyz/api/get_guest_list/[0m
+[32m[47mINFO    [0m [32mstatus_code: 200, response_time(ms): 32.91 ms, response_length: 641 bytes
+[0m
+[32m[47mINFO    [0m [32mStart to render Html report ...[0m
+[32m[47mINFO    [0m [32mGenerated Html report: D:\HttpRunnerManager-1\reports\2019-10-09 23-19-32.html[0m
+[32m[47mINFO    [0m [32mHttpRunner version: 2.2.5[0m
+[32m[47mINFO    [0m [32mStart to run testcase: 查询发布会接口[0m
+[32m[47mINFO    [0m [32mGET http://www.easytest.xyz/api/get_event_list/[0m
+[32m[47mINFO    [0m [32mstatus_code: 200, response_time(ms): 36.16 ms, response_length: 252 bytes
+[0m
+[32m[47mINFO    [0m [32mStart to run testcase: 查询嘉宾接口[0m
+[32m[47mINFO    [0m [32mPOST http://www.easytest.xyz/api/get_guest_list/[0m
+[32m[47mINFO    [0m [32mstatus_code: 200, response_time(ms): 57.42 ms, response_length: 641 bytes
+[0m
+[32m[47mINFO    [0m [32mStart to render Html report ...[0m
+[32m[47mINFO    [0m [32mGenerated Html report: D:\HttpRunnerManager-1\reports\2019-10-09 23-20-29.html[0m
+[32m[47mINFO    [0m [32mHttpRunner version: 2.2.5[0m
+[32m[47mINFO    [0m [32mStart to run testcase: 查询发布会接口[0m
+[32m[47mINFO    [0m [32mGET http://www.easytest.xyz/api/get_event_list/[0m
+[32m[47mINFO    [0m [32mstatus_code: 200, response_time(ms): 118.67 ms, response_length: 252 bytes
+[0m
+[32m[47mINFO    [0m [32mStart to run testcase: 查询嘉宾接口[0m
+[32m[47mINFO    [0m [32mPOST http://www.easytest.xyz/api/get_guest_list/[0m
+[32m[47mINFO    [0m [32mstatus_code: 200, response_time(ms): 41.9 ms, response_length: 641 bytes
+[0m
+[32m[47mINFO    [0m [32mStart to render Html report ...[0m
+[32m[47mINFO    [0m [32mGenerated Html report: D:\HttpRunnerManager-1\reports\2019-10-09 23-21-04.html[0m
