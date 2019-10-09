@@ -24,7 +24,7 @@ from ApiManager.utils.pagination import get_pager_info
 from ApiManager.utils.runner import run_by_batch, run_test_by_type
 from ApiManager.utils.task_opt import delete_task, change_task_status
 from ApiManager.utils.testcase import get_time_stamp
-from httprunner import HttpRunner
+from httprunner.api import HttpRunner
 
 logger = logging.getLogger('HttpRunnerManager')
 
@@ -235,9 +235,10 @@ def run_test(request):
         run_test_by_type(id, base_url, testcase_dir_path, type)
         runner.run(testcase_dir_path)
         shutil.rmtree(testcase_dir_path)
-        runner.summary = timestamp_to_datetime(runner.summary, type=False)
-
-        return render_to_response('report_template.html', runner.summary)
+        runner._summary = timestamp_to_datetime(runner._summary, base_url, type=False)
+        with open('summary.json', 'w', encoding='utf-8') as f:
+            json.dump(runner._summary, f, ensure_ascii=False, sort_keys=True, indent=4)
+        return render_to_response('report_template.html', runner._summary)
 
 
 @login_check
@@ -277,9 +278,9 @@ def run_batch_test(request):
         runner.run(testcase_dir_path)
 
         shutil.rmtree(testcase_dir_path)
-        runner.summary = timestamp_to_datetime(runner.summary,type=False)
+        runner._summary = timestamp_to_datetime(runner._summary,type=False)
 
-        return render_to_response('report_template.html', runner.summary)
+        return render_to_response('report_template.html', runner._summary)
 
 
 @login_check

@@ -13,7 +13,7 @@ from ApiManager.utils.emails import send_email_reports
 from ApiManager.utils.operation import add_test_reports
 from ApiManager.utils.runner import run_by_project, run_by_module, run_by_suite
 from ApiManager.utils.testcase import get_time_stamp
-from httprunner import HttpRunner, logger
+from httprunner.api import HttpRunner, logger
 
 
 @shared_task
@@ -32,7 +32,7 @@ def main_hrun(testset_path, report_name):
     runner.run(testset_path)
     shutil.rmtree(testset_path)
 
-    runner.summary = timestamp_to_datetime(runner.summary)
+    runner._summary = timestamp_to_datetime(runner._summary)
     report_path = add_test_reports(runner, report_name=report_name)
     os.remove(report_path)
 
@@ -60,7 +60,7 @@ def project_hrun(name, base_url, project, receiver):
     runner.run(testcase_dir_path)
     shutil.rmtree(testcase_dir_path)
 
-    runner.summary = timestamp_to_datetime(runner.summary)
+    runner._summary = timestamp_to_datetime(runner._summary)
     report_path = add_test_reports(runner, report_name=name)
 
     if receiver != '':
@@ -96,7 +96,7 @@ def module_hrun(name, base_url, module, receiver):
     runner.run(testcase_dir_path)
 
     shutil.rmtree(testcase_dir_path)
-    runner.summary = timestamp_to_datetime(runner.summary)
+    runner._summary = timestamp_to_datetime(runner._summary)
     report_path = add_test_reports(runner, report_name=name)
 
     if receiver != '':
@@ -133,7 +133,7 @@ def suite_hrun(name, base_url, suite, receiver):
 
     shutil.rmtree(testcase_dir_path)
 
-    runner.summary = timestamp_to_datetime(runner.summary)
+    runner._summary = timestamp_to_datetime(runner._summary)
     report_path = add_test_reports(runner, report_name=name)
 
     if receiver != '':

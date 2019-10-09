@@ -25,7 +25,7 @@ def _dump_json_file(json_file, data):
     """ load json file and check file content format
     """
     with io.open(json_file, 'w', encoding='utf-8') as stream:
-        json.dump(data, stream, indent=4, separators=(',', ': '), ensure_ascii=False)
+        json.dump(data, stream, indent=4, separators=(',', ': '), ensure_ascii=False, sort_keys=True)
 
 
 def dump_python_file(python_file, data):

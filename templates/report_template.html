@@ -172,16 +172,16 @@
                             </div>
                             <div class='block text-small'>
                             <span class='tooltipped' data-position='top'><span
-                                    class='strong'>{{ stat.successes }}</span> test(s) passed</span>
+                                    class='strong'>{{ stat.teststeps.successes }}</span> test(s) passed</span>
                                 <span class='tooltipped' data-position='top'><span
-                                        class='strong'>{{ stat.failures }}</span> test(s) failed</span>
+                                        class='strong'>{{ stat.teststeps.failures }}</span> test(s) failed</span>
                             </div>
                             <div class='block text-small'>
                             <span class='strong tooltipped' data-position='top'
-                            >{{ stat.errors }}</span>
+                            >{{ stat.teststeps.errors }}</span>
                                 test(s) errored
                                 <span class='strong tooltipped' data-position='top'
-                                >{{ stat.skipped }}</span>
+                                >{{ stat.teststeps.skipped }}</span>
                                 test(s) skipped
                             </div>
                         </div>
@@ -267,7 +267,7 @@
                                 <div class='collapsible-header'>
                                     <div class='node-name'>{{ record.name }}</div>
                                     <span class='node-time'>{{ record.start_timestamp }}</span>
-                                    <span class='node-duration'>response_time: {{ record.meta_data.response.response_time_ms }} ms</span>
+                                    <span class='node-duration'>response_time: {{ record.response_time }} ms</span>
                                     {% if  record.status == 'success' %}
                                         <span class='test-status right pass'>pass</span>
                                     {% elif record.status == 'failure' %}
@@ -294,24 +294,28 @@
                                             </tr>
                                             </thead>
                                             <tbody>
-                                            <tr class='info' status='info'>
-                                                <td class='status info' title='info' alt='info'><i
-                                                        class='material-icons'>low_priority</i></td>
-                                                <td class='timestamp'>url</td>
-                                                <td class='step-details'>{{ record.meta_data.request.url }}</td>
-                                            </tr>
-                                            <tr class='info' status='info'>
-                                                <td class='status info' title='info' alt='info'><i
-                                                        class='material-icons'>low_priority</i></td>
-                                                <td class='timestamp'>method</td>
-                                                <td class='step-details'>{{ record.meta_data.request.method }}</td>
-                                            </tr>
-                                            <tr class='info' status='info'>
-                                                <td class='status info' title='info' alt='info'><i
-                                                        class='material-icons'>low_priority</i></td>
-                                                <td class='timestamp'>status_code</td>
-                                                <td class='step-details'>{{ record.meta_data.response.status_code }}</td>
-                                            </tr>
+                                            {% for info in record.meta_datas.data %}
+                                                <tr class='info' status='info'>
+                                                    <td class='status info' title='info' alt='info'><i
+                                                            class='material-icons'>low_priority</i></td>
+                                                    <td class='timestamp'>url</td>
+                                                    <td class='step-details'>{{ info.request.url }}</td>
+                                                </tr>
+                                                <tr class='info' status='info'>
+                                                    <td class='status info' title='info' alt='info'><i
+                                                            class='material-icons'>low_priority</i></td>
+                                                    <td class='timestamp'>method</td>
+                                                    <td class='step-details'>{{ info.request.method }}</td>
+                                                </tr>
+                                                <tr class='info' status='info'>
+                                                    <td class='status info' title='info' alt='info'><i
+                                                            class='material-icons'>low_priority</i></td>
+                                                    <td class='timestamp'>status_code</td>
+                                                    <td class='step-details'>{{ info.response.status_code }}</td>
+                                                </tr>
+                                            {% endfor %}
+
+
                                             {% for key, value in record.meta_data.request.items %}
                                                 {% if key != 'url' and key != 'method' and key != 'start_timestamp' %}
                                                     <tr class='log' status='debug'>
@@ -365,7 +369,7 @@
                                                         class='material-icons'>low_priority</i></td>
                                                 <td class='timestamp'>Validators</td>
                                                 <td class='step-details'>
-                                                    {% for validator in record.meta_data.validators %}
+                                                    {% for validator in record.meta_datas.validators %}
                                                         <div>
                                                             <strong>{{ validator.comparator }}:</strong>[ {{ validator.expect }}
                                                             ,&nbsp;&nbsp;{{ validator.check_value }} ]
@@ -380,13 +384,13 @@
                                                 <td class='timestamp'>Statistics</td>
                                                 <td class='step-details'>
                                                     <div>
-                                                        content_size(bytes): {{ record.meta_data.response.content_size }}
+                                                        content_size(bytes): {{ record.meta_datas.stat.content_size }}
                                                     </div>
                                                     <div>
-                                                        response_time(ms): {{ record.meta_data.response.response_time_ms }}
+                                                        response_time(ms): {{ record.meta_datas.stat.response_time_ms }}
                                                     </div>
                                                     <div>
-                                                        elapsed(ms): {{ record.meta_data.response.elapsed_ms }}
+                                                        elapsed(ms): {{ record.meta_datas.stat.elapsed_ms }}
                                                     </div>
                                                 </td>
                                             </tr>

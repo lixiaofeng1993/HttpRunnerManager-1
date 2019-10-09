@@ -220,7 +220,7 @@ function case_ajax(type, editor) {
             },
             "extract": extract,
             "validate": validate,
-            "hooks": hooks,
+            "hooks": hooks
         }
     };
     if (type === 'edit') {
@@ -280,7 +280,7 @@ function config_ajax(type) {
                 "type": dataType.DataType,
                 "request_data": request_data
             },
-            "hooks": hooks,
+            "hooks": hooks
 
         }
     };

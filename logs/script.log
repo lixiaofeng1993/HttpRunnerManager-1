@@ -437,3 +437,74 @@ Traceback (most recent call last):
 ValueError: invalid literal for int() with base 10: '用例_quant_login_out(登入登出)'
 2018-07-02 14:59:50,449 [HttpRunnerManager:78] [views:log_out] [INFO]- yinquanwang退出
 2018-07-02 14:59:52,333 [HttpRunnerManager:45] [views:login] [INFO]- yinquanwang 登录成功
+2019-10-09 13:00:12,148 [django.request:93] [base:get_response] [WARNING]- Not Found: /
+2019-10-09 13:00:22,138 [django.request:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /api/login/
+Traceback (most recent call last):
+  File "D:\python\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "D:\python\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\python\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\HttpRunnerManager-1\HttpRunnerManager\activator.py", line 10, in process
+    app = __import__("%s.views" % app)
+  File "D:\HttpRunnerManager-1\ApiManager\views.py", line 17, in <module>
+    from ApiManager.tasks import main_hrun
+  File "D:\HttpRunnerManager-1\ApiManager\tasks.py", line 16, in <module>
+    from httprunner import HttpRunner, logger
+ImportError: cannot import name 'HttpRunner'
+2019-10-09 13:03:52,591 [HttpRunnerManager:55] [views:login] [INFO]- lixiaofeng 登录成功
+2019-10-09 13:10:35,402 [django.request:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /api/run_test/
+Traceback (most recent call last):
+httprunner.exceptions.ParamsError: invalid validator: {'check': 'message', 'comparator': 'equals', 'expected': 'query result is empty'}
+2019-10-09 13:13:49,164 [HttpRunnerManager:154] [operation:add_case_data] [INFO]- ceshi 1111用例添加成功: {'test': {'request': {'url': '', 'method': 'POST'}, 'name': 'ceshi 1111', 'validate': [{'comparator': 'equals', 'check': '2321312', 'expected': '31321321321'}]}}
+2019-10-09 13:17:58,348 [HttpRunnerManager:163] [operation:add_case_data] [INFO]- 查询嘉宾测试用例用例更新成功: {'test': {'request': {'url': '/get_guest_list/', 'method': 'GET', 'params': {'name': '赵小刀98353'}}, 'name': '查询嘉宾测试用例', 'validate': [{'comparator': 'equals', 'check': 'message', 'expected': 'query result is empty'}]}}
+2019-10-09 13:18:03,205 [HttpRunnerManager:163] [operation:add_case_data] [INFO]- 查询发布会测试用例用例更新成功: {'test': {'request': {'url': '/get_event_list/', 'method': 'GET', 'params': {'name': '一加8手机发布会1733'}}, 'name': '查询发布会测试用例', 'validate': [{'comparator': 'equals', 'check': 'message', 'expected': 'query result is empty'}]}}
+2019-10-09 13:18:19,900 [HttpRunnerManager:163] [operation:add_case_data] [INFO]- 查询发布会测试用例用例更新成功: {'test': {'request': {'url': '/get_event_list/', 'method': 'GET', 'params': {'name': '一加8手机发布会1733'}}, 'name': '查询发布会测试用例', 'validate': [{'comparator': 'equals', 'check': 'message1', 'expected': 'query result is empty'}]}}
+2019-10-09 13:18:48,933 [HttpRunnerManager:163] [operation:add_case_data] [INFO]- 查询发布会测试用例用例更新成功: {'test': {'request': {'url': '/get_event_list/', 'method': 'GET', 'params': {'name': '一加8手机发布会1733'}}, 'name': '查询发布会测试用例', 'validate': [{'comparator': 'equals', 'check': 'message1', 'expected': 'query result is empty'}]}}
+2019-10-09 13:19:26,463 [HttpRunnerManager:154] [operation:add_case_data] [INFO]- 12312312用例添加成功: {'test': {'request': {'url': '', 'method': 'POST'}, 'name': '12312312', 'validate': [{'comparator': 'equals', 'check': '2312321', 'expected': '21321312'}]}}
+2019-10-09 13:22:33,873 [django.request:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /api/run_test/
+Traceback (most recent call last):
+httprunner.exceptions.ParamsError: invalid validator: {'check': 'message1', 'comparator': 'equals', 'expected': 'query result is empty'}
+2019-10-09 13:22:55,054 [HttpRunnerManager:163] [operation:add_case_data] [INFO]- 查询嘉宾测试用例用例更新成功: {'test': {'request': {'url': '/get_guest_list/', 'method': 'GET', 'params': {'name': '赵小刀98353'}}, 'name': '查询嘉宾测试用例', 'validate': [{'comparator': 'equals', 'check': 'message', 'expected': 'query result is empty'}]}}
+2019-10-09 13:23:49,946 [django.request:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /api/run_test/
+Traceback (most recent call last):
+httprunner.exceptions.ParamsError: invalid validator: {'check': 'message1', 'comparator': 'equals', 'expected': 'query result is empty'}
+2019-10-09 13:24:51,445 [HttpRunnerManager:163] [operation:add_case_data] [INFO]- 查询嘉宾测试用例用例更新成功: {'test': {'request': {'url': '/get_guest_list/', 'method': 'GET', 'params': {'name': '赵小刀98353'}}, 'name': '查询嘉宾测试用例', 'validate': [{'comparator': 'equals', 'check': 'message', 'expect': ''}]}}
+2019-10-09 13:25:07,878 [HttpRunnerManager:163] [operation:add_case_data] [INFO]- 查询嘉宾测试用例用例更新成功: {'test': {'request': {'url': '/get_guest_list/', 'method': 'GET', 'params': {'name': '赵小刀98353'}}, 'name': '查询嘉宾测试用例', 'validate': [{'comparator': 'equals', 'check': 'message', 'expect': 'query result is empty'}]}}
+2019-10-09 13:25:19,397 [HttpRunnerManager:163] [operation:add_case_data] [INFO]- 查询发布会测试用例用例更新成功: {'test': {'request': {'url': '/get_event_list/', 'method': 'GET', 'params': {'name': '一加8手机发布会1733'}}, 'name': '查询发布会测试用例', 'validate': [{'comparator': 'equals', 'check': 'message', 'expect': 'query result is empty'}]}}
+2019-10-09 13:51:57,407 [HttpRunnerManager:163] [operation:add_case_data] [INFO]- 查询发布会测试用例用例更新成功: {'test': {'request': {'url': '/get_event_list/', 'method': 'GET', 'params': {'name': '一加8手机发布会1733'}}, 'name': '查询发布会测试用例', 'validate': [{'comparator': 'equals', 'check': 'message', 'expect': ''}], 'variables': [{'status': '200'}]}}
+2019-10-09 13:52:08,520 [HttpRunnerManager:163] [operation:add_case_data] [INFO]- 查询嘉宾测试用例用例更新成功: {'test': {'request': {'url': '/get_guest_list/', 'method': 'GET', 'params': {'name': '赵小刀98353'}}, 'name': '查询嘉宾测试用例', 'validate': [{'comparator': 'equals', 'check': 'message', 'expect': ''}], 'variables': [{'status': '200'}]}}
+2019-10-09 13:54:29,112 [HttpRunnerManager:163] [operation:add_case_data] [INFO]- 查询嘉宾测试用例用例更新成功: {'test': {'request': {'url': '/get_guest_list/', 'method': 'GET', 'params': {'name': '赵小刀98353'}}, 'name': '查询嘉宾测试用例', 'validate': [{'comparator': 'equals', 'check': 'message', 'expect': ''}], 'variables': [{'status': '10022'}]}}
+2019-10-09 13:54:34,292 [HttpRunnerManager:163] [operation:add_case_data] [INFO]- 查询发布会测试用例用例更新成功: {'test': {'request': {'url': '/get_event_list/', 'method': 'GET', 'params': {'name': '一加8手机发布会1733'}}, 'name': '查询发布会测试用例', 'validate': [{'comparator': 'equals', 'check': 'message', 'expect': ''}], 'variables': [{'status': '10022'}]}}
+2019-10-09 13:56:15,901 [HttpRunnerManager:163] [operation:add_case_data] [INFO]- 查询嘉宾测试用例用例更新成功: {'test': {'request': {'url': '/get_guest_list/', 'method': 'GET', 'params': {'name': '卢红梅'}}, 'name': '查询嘉宾测试用例', 'validate': [{'comparator': 'equals', 'check': 'message', 'expect': ''}], 'variables': [{'status': '10022'}]}}
+2019-10-09 13:56:28,846 [HttpRunnerManager:163] [operation:add_case_data] [INFO]- 查询发布会测试用例用例更新成功: {'test': {'request': {'url': '/get_event_list/', 'method': 'GET', 'params': {'name': '发布会'}}, 'name': '查询发布会测试用例', 'validate': [{'comparator': 'equals', 'check': 'message', 'expect': ''}], 'variables': [{'status': '200'}]}}
+2019-10-09 13:56:44,790 [HttpRunnerManager:163] [operation:add_case_data] [INFO]- 查询发布会测试用例用例更新成功: {'test': {'request': {'url': '/get_event_list/', 'method': 'GET', 'params': {'name': '发布会'}}, 'name': '查询发布会测试用例', 'validate': [{'comparator': 'equals', 'check': 'message', 'expect': ''}], 'variables': [{'status': '200'}]}}
+2019-10-09 13:57:41,798 [HttpRunnerManager:163] [operation:add_case_data] [INFO]- 查询嘉宾测试用例用例更新成功: {'test': {'request': {'url': '/get_guest_list/', 'method': 'GET', 'params': {'name': '卢红梅'}}, 'name': '查询嘉宾测试用例', 'validate': [{'comparator': 'equals', 'check': 'message', 'expect': 'success'}]}}
+2019-10-09 13:57:48,317 [HttpRunnerManager:163] [operation:add_case_data] [INFO]- 查询发布会测试用例用例更新成功: {'test': {'request': {'url': '/get_event_list/', 'method': 'GET', 'params': {'name': '发布会'}}, 'name': '查询发布会测试用例', 'validate': [{'comparator': 'equals', 'check': 'message', 'expect': 'success'}], 'variables': [{'status': '200'}]}}
+2019-10-09 13:59:00,464 [django.request:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /api/run_test/
+Traceback (most recent call last):
+AttributeError: 'ChannelPromise' object has no attribute '__value__'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+OSError: timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+OSError: timed out
+2019-10-09 14:05:30,357 [HttpRunnerManager:163] [operation:add_case_data] [INFO]- 查询嘉宾测试用例用例更新成功: {'test': {'request': {'url': '/get_guest_list/', 'method': 'GET', 'params': {'name': '卢红梅'}}, 'name': '查询嘉宾测试用例', 'validate': [{'comparator': 'equals', 'check': 'content.message', 'expect': 'success'}]}}
+2019-10-09 14:05:44,815 [HttpRunnerManager:163] [operation:add_case_data] [INFO]- 查询发布会测试用例用例更新成功: {'test': {'request': {'url': '/get_event_list/', 'method': 'GET', 'params': {'name': '发布会'}}, 'name': '查询发布会测试用例', 'validate': [{'comparator': 'equals', 'check': 'content.message', 'expect': 'success'}], 'variables': [{'status': '200'}]}}
+2019-10-09 14:06:37,678 [HttpRunnerManager:163] [operation:add_case_data] [INFO]- 查询嘉宾测试用例用例更新成功: {'test': {'request': {'url': '/get_guest_list/', 'method': 'GET', 'params': {'name': '卢红梅'}}, 'name': '查询嘉宾测试用例', 'validate': [{'comparator': 'equals', 'check': 'content.content.message', 'expect': 'success'}]}}
+2019-10-09 14:06:52,392 [HttpRunnerManager:163] [operation:add_case_data] [INFO]- 查询发布会测试用例用例更新成功: {'test': {'request': {'url': '/get_event_list/', 'method': 'GET', 'params': {'name': '发布会'}}, 'name': '查询发布会测试用例', 'validate': [{'comparator': 'equals', 'check': 'content.content.message', 'expect': 'success'}]}}
+2019-10-09 14:10:18,128 [HttpRunnerManager:163] [operation:add_case_data] [INFO]- 查询嘉宾测试用例用例更新成功: {'test': {'request': {'url': '/get_guest_list/', 'method': 'GET', 'params': {'name': '卢红梅'}}, 'name': '查询嘉宾测试用例', 'validate': [{'comparator': 'equals', 'check': 'message', 'expect': 'success'}]}}
+2019-10-09 14:10:26,556 [HttpRunnerManager:163] [operation:add_case_data] [INFO]- 查询发布会测试用例用例更新成功: {'test': {'request': {'url': '/get_event_list/', 'method': 'GET', 'params': {'name': '发布会'}}, 'name': '查询发布会测试用例', 'validate': [{'comparator': 'equals', 'check': 'message', 'expect': 'success'}]}}
+2019-10-09 14:10:59,740 [HttpRunnerManager:163] [operation:add_case_data] [INFO]- 查询嘉宾测试用例用例更新成功: {'test': {'request': {'url': '/get_guest_list/', 'method': 'GET', 'params': {'name': '卢红梅'}}, 'name': '查询嘉宾测试用例', 'validate': [{'comparator': 'equals', 'check': 'content.message', 'expect': 'success'}]}}
+2019-10-09 14:11:11,343 [HttpRunnerManager:163] [operation:add_case_data] [INFO]- 查询发布会测试用例用例更新成功: {'test': {'request': {'url': '/get_event_list/', 'method': 'GET', 'params': {'name': '发布会'}}, 'name': '查询发布会测试用例', 'validate': [{'comparator': 'equals', 'check': 'content.message', 'expect': 'success'}]}}
+2019-10-09 14:14:09,079 [HttpRunnerManager:163] [operation:add_case_data] [INFO]- 查询发布会测试用例用例更新成功: {'test': {'request': {'url': '/get_event_list/', 'method': 'GET', 'params': {'name': '阎娜发布会'}}, 'name': '查询发布会测试用例', 'validate': [{'comparator': 'equals', 'check': 'content.message', 'expect': 'success'}]}}
+2019-10-09 15:50:48,259 [HttpRunnerManager:55] [views:login] [INFO]- lixiaofeng 登录成功
+2019-10-09 17:29:13,370 [django.request:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /api/run_test/
+Traceback (most recent call last):
+httprunner.exceptions.ParamsError: Invalid testcase path or testcases: D:\HttpRunnerManager-1\suite\2019-10-09 17-29-13-367

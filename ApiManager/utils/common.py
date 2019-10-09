@@ -16,7 +16,6 @@ from ApiManager.utils.operation import add_project_data, add_module_data, add_ca
     add_register_data
 from ApiManager.utils.task_opt import create_task
 
-
 logger = logging.getLogger('HttpRunnerManager')
 
 
@@ -78,7 +77,7 @@ def key_value_list(keyword, **kwargs):
                         msg = type_change(type, val)
                         if msg == 'exception':
                             return tips
-                        value['expected'] = msg
+                        value['expect'] = msg
                     elif keyword == 'extract':
                         value[key] = val
                     elif keyword == 'variables':
@@ -558,7 +557,7 @@ def upload_file_logic(files, project, module, account):
                     for check in validate:
                         if 'comparator' not in check.keys():
                             for key, value in check.items():
-                                tmp_check = {"check": value[0], "comparator": key, "expected": value[1]}
+                                tmp_check = {"check": value[0], "comparator": key, "expect": value[1]}
                                 new_validate.append(tmp_check)
 
                     test_case.get('test')['validate'] = new_validate
@@ -603,7 +602,7 @@ def update_include(include):
             try:
                 name = TestCaseInfo.objects.get(id=id).name
             except ObjectDoesNotExist:
-                name = source_name+'_已删除!'
+                name = source_name + '_已删除!'
                 logger.warning('依赖的 {name} 用例/配置已经被删除啦！！'.format(name=source_name))
 
             include[i] = {
@@ -623,7 +622,7 @@ def update_include(include):
     return include
 
 
-def timestamp_to_datetime(summary, type=True):
+def timestamp_to_datetime(summary, base_url, type=True):
     if not type:
         time_stamp = int(summary["time"]["start_at"])
         summary['time']['start_datetime'] = datetime.datetime. \
@@ -631,6 +630,7 @@ def timestamp_to_datetime(summary, type=True):
 
     for detail in summary['details']:
         try:
+            detail['base_url'] = base_url
             time_stamp = int(detail['time']['start_at'])
             detail['time']['start_at'] = datetime.datetime.fromtimestamp(time_stamp).strftime('%Y-%m-%d %H:%M:%S')
         except Exception:

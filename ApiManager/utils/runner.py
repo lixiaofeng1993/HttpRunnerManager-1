@@ -3,7 +3,7 @@ import os
 from django.core.exceptions import ObjectDoesNotExist
 
 from ApiManager.models import TestCaseInfo, ModuleInfo, ProjectInfo, DebugTalk, TestSuite
-from ApiManager.utils.testcase import dump_python_file, dump_yaml_file
+from ApiManager.utils.testcase import dump_python_file, dump_yaml_file, _dump_json_file
 
 
 def run_by_single(index, base_url, path):
@@ -13,12 +13,18 @@ def run_by_single(index, base_url, path):
     :param base_url: str：环境地址
     :return: dict
     """
+    # config = {
+    #     'config': {
+    #         'name': '',
+    #         'request': {
+    #             'base_url': base_url
+    #         }
+    #     }
+    # }
     config = {
         'config': {
             'name': '',
-            'request': {
-                'base_url': base_url
-            }
+            'base_url': base_url
         }
     }
     testcase_list = []
@@ -74,7 +80,7 @@ def run_by_single(index, base_url, path):
     if request['test']['request']['url'] != '':
         testcase_list.append(request)
 
-    dump_yaml_file(os.path.join(testcase_dir_path, name + '.yml'), testcase_list)
+    _dump_json_file(os.path.join(testcase_dir_path, name + '.json'), testcase_list)
 
 
 def run_by_suite(index, base_url, path):
