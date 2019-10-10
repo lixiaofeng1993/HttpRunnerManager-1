@@ -526,3 +526,148 @@ TypeError: dumps() takes 1 positional argument but 2 positional arguments (and 3
 2019-10-09 23:16:06,355 [django.request:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /api/run_test/
 Traceback (most recent call last):
 KeyError: 'data'
+2019-10-10 09:51:17,606 [HttpRunnerManager:55] [views:login] [INFO]- lixiaofeng 登录成功
+2019-10-10 10:27:17,048 [django.request:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /api/run_test/
+Traceback (most recent call last):
+AttributeError: 'ChannelPromise' object has no attribute '__value__'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+OSError: timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+OSError: timed out
+2019-10-10 12:52:27,543 [django.request:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /api/run_test/
+Traceback (most recent call last):
+AttributeError: 'ChannelPromise' object has no attribute '__value__'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+OSError: timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+OSError: timed out
+2019-10-10 12:53:32,851 [django.request:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /api/run_test/
+Traceback (most recent call last):
+AttributeError: 'ChannelPromise' object has no attribute '__value__'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+OSError: timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+OSError: timed out
+2019-10-10 12:54:22,782 [django.request:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /api/run_test/
+Traceback (most recent call last):
+AttributeError: 'ChannelPromise' object has no attribute '__value__'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+OSError: timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+OSError: timed out
+2019-10-10 12:56:04,325 [django.request:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /api/run_test/
+Traceback (most recent call last):
+AttributeError: 'ChannelPromise' object has no attribute '__value__'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+OSError: timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+OSError: timed out
+2019-10-10 13:03:14,757 [django.request:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /api/run_test/
+Traceback (most recent call last):
+AttributeError: 'ChannelPromise' object has no attribute '__value__'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+OSError: timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+OSError: timed out
+2019-10-10 13:04:01,370 [django.request:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /api/run_test/
+Traceback (most recent call last):
+AttributeError: 'ChannelPromise' object has no attribute '__value__'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+OSError: timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+OSError: timed out
+2019-10-10 13:06:10,803 [django.request:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /api/run_test/
+Traceback (most recent call last):
+AttributeError: 'ChannelPromise' object has no attribute '__value__'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+OSError: timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+OSError: timed out
+2019-10-10 13:07:41,906 [django.request:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /api/run_test/
+Traceback (most recent call last):
+AttributeError: 'ChannelPromise' object has no attribute '__value__'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+OSError: timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+OSError: timed out
+2019-10-10 13:08:54,072 [django.request:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /api/run_test/
+Traceback (most recent call last):
+AttributeError: 'ChannelPromise' object has no attribute '__value__'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+OSError: timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+OSError: timed out
+2019-10-10 13:10:35,551 [django.request:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /api/run_test/
+Traceback (most recent call last):
+AttributeError: 'ChannelPromise' object has no attribute '__value__'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+OSError: timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+OSError: timed out
+2019-10-10 13:51:58,778 [HttpRunnerManager:55] [views:login] [INFO]- lixiaofeng 登录成功

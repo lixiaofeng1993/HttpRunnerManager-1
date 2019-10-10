@@ -622,7 +622,7 @@ def update_include(include):
     return include
 
 
-def timestamp_to_datetime(summary, base_url, type=True):
+def timestamp_to_datetime(summary, base_url='', type=True):
     if not type:
         time_stamp = int(summary["time"]["start_at"])
         summary['time']['start_datetime'] = datetime.datetime. \

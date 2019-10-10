@@ -6,7 +6,7 @@
                 "in": {},
                 "out": {}
             },
-            "name": "查询发布会接口",
+            "name": "查询发布会测试用例",
             "records": [
                 {
                     "attachment": "",
@@ -21,7 +21,7 @@
                                         "User-Agent": "python-requests/2.18.4"
                                     },
                                     "method": "GET",
-                                    "url": "http://www.easytest.xyz/api/get_event_list/?name=keep%E6%89%8B%E7%8E%AF%E5%8F%91%E5%B8%83%E4%BC%9A"
+                                    "url": "http://www.easytest.xyz/api/get_event_list/?name=%E9%98%8E%E5%A8%9C%E5%8F%91%E5%B8%83%E4%BC%9A"
                                 },
                                 "response": {
                                     "content_type": "application/json",
@@ -31,7 +31,7 @@
                                         "Connection": "keep-alive",
                                         "Content-Encoding": "gzip",
                                         "Content-Type": "application/json",
-                                        "Date": "Wed, 09 Oct 2019 15:21:06 GMT",
+                                        "Date": "Thu, 10 Oct 2019 01:51:40 GMT",
                                         "Server": "nginx/1.11.3",
                                         "Transfer-Encoding": "chunked",
                                         "Vary": "Accept-Encoding",
@@ -40,11 +40,11 @@
                                     "json": {
                                         "data": [
                                             {
-                                                "address": "天津市关岭市锡山黄街E座 206535",
-                                                "limit": 8572,
-                                                "name": "keep手环发布会",
-                                                "start_time": "2022-01-29T11:54:36",
-                                                "status": true
+                                                "address": "广西壮族自治区齐齐哈尔县秀英贵阳街Q座 423709",
+                                                "limit": 8396,
+                                                "name": "阎娜发布会",
+                                                "start_time": "2019-09-07T14:24:18",
+                                                "status": false
                                             }
                                         ],
                                         "message": "success",
@@ -53,15 +53,15 @@
                                     "ok": true,
                                     "reason": "OK",
                                     "status_code": 200,
-                                    "url": "http://www.easytest.xyz/api/get_event_list/?name=keep%E6%89%8B%E7%8E%AF%E5%8F%91%E5%B8%83%E4%BC%9A"
+                                    "url": "http://www.easytest.xyz/api/get_event_list/?name=%E9%98%8E%E5%A8%9C%E5%8F%91%E5%B8%83%E4%BC%9A"
                                 }
                             }
                         ],
-                        "name": "查询发布会接口",
+                        "name": "查询发布会测试用例",
                         "stat": {
-                            "content_size": 252,
-                            "elapsed_ms": 113.89,
-                            "response_time_ms": 118.67
+                            "content_size": 291,
+                            "elapsed_ms": 88.98,
+                            "response_time_ms": 105.09
                         },
                         "validators": [
                             {
@@ -86,7 +86,7 @@
                                             "User-Agent": "python-requests/2.18.4"
                                         },
                                         "method": "GET",
-                                        "url": "http://www.easytest.xyz/api/get_event_list/?name=keep%E6%89%8B%E7%8E%AF%E5%8F%91%E5%B8%83%E4%BC%9A"
+                                        "url": "http://www.easytest.xyz/api/get_event_list/?name=%E9%98%8E%E5%A8%9C%E5%8F%91%E5%B8%83%E4%BC%9A"
                                     },
                                     "response": {
                                         "content_type": "application/json",
@@ -96,7 +96,7 @@
                                             "Connection": "keep-alive",
                                             "Content-Encoding": "gzip",
                                             "Content-Type": "application/json",
-                                            "Date": "Wed, 09 Oct 2019 15:21:06 GMT",
+                                            "Date": "Thu, 10 Oct 2019 01:51:40 GMT",
                                             "Server": "nginx/1.11.3",
                                             "Transfer-Encoding": "chunked",
                                             "Vary": "Accept-Encoding",
@@ -105,11 +105,11 @@
                                         "json": {
                                             "data": [
                                                 {
-                                                    "address": "天津市关岭市锡山黄街E座 206535",
-                                                    "limit": 8572,
-                                                    "name": "keep手环发布会",
-                                                    "start_time": "2022-01-29T11:54:36",
-                                                    "status": true
+                                                    "address": "广西壮族自治区齐齐哈尔县秀英贵阳街Q座 423709",
+                                                    "limit": 8396,
+                                                    "name": "阎娜发布会",
+                                                    "start_time": "2019-09-07T14:24:18",
+                                                    "status": false
                                                 }
                                             ],
                                             "message": "success",
@@ -118,15 +118,15 @@
                                         "ok": true,
                                         "reason": "OK",
                                         "status_code": 200,
-                                        "url": "http://www.easytest.xyz/api/get_event_list/?name=keep%E6%89%8B%E7%8E%AF%E5%8F%91%E5%B8%83%E4%BC%9A"
+                                        "url": "http://www.easytest.xyz/api/get_event_list/?name=%E9%98%8E%E5%A8%9C%E5%8F%91%E5%B8%83%E4%BC%9A"
                                     }
                                 }
                             ],
-                            "name": "查询发布会接口",
+                            "name": "查询发布会测试用例",
                             "stat": {
-                                "content_size": 252,
-                                "elapsed_ms": 113.89,
-                                "response_time_ms": 118.67
+                                "content_size": 291,
+                                "elapsed_ms": 88.98,
+                                "response_time_ms": 105.09
                             },
                             "validators": [
                                 {
@@ -140,8 +140,8 @@
                             ]
                         }
                     ],
-                    "name": "查询发布会接口",
-                    "response_time": "118.67",
+                    "name": "查询发布会测试用例",
+                    "response_time": "105.09",
                     "status": "success"
                 }
             ],
@@ -156,8 +156,8 @@
             },
             "success": true,
             "time": {
-                "duration": 0.17253708839416504,
-                "start_at": "2019-10-09 23:21:04"
+                "duration": 0.15310192108154297,
+                "start_at": "2019-10-10 09:51:37"
             }
         },
         {
@@ -166,7 +166,7 @@
                 "in": {},
                 "out": {}
             },
-            "name": "查询嘉宾接口",
+            "name": "查询嘉宾测试用例",
             "records": [
                 {
                     "attachment": "",
@@ -178,11 +178,10 @@
                                         "Accept": "*/*",
                                         "Accept-Encoding": "gzip, deflate",
                                         "Connection": "keep-alive",
-                                        "Content-Length": "0",
                                         "User-Agent": "python-requests/2.18.4"
                                     },
-                                    "method": "POST",
-                                    "url": "http://www.easytest.xyz/api/get_guest_list/?name=%E6%9D%8E%E5%81%A5"
+                                    "method": "GET",
+                                    "url": "http://www.easytest.xyz/api/get_guest_list/?name=%E5%8D%A2%E7%BA%A2%E6%A2%85"
                                 },
                                 "response": {
                                     "content_type": "application/json",
@@ -192,7 +191,7 @@
                                         "Connection": "keep-alive",
                                         "Content-Encoding": "gzip",
                                         "Content-Type": "application/json",
-                                        "Date": "Wed, 09 Oct 2019 15:21:06 GMT",
+                                        "Date": "Thu, 10 Oct 2019 01:51:40 GMT",
                                         "Server": "nginx/1.11.3",
                                         "Transfer-Encoding": "chunked",
                                         "Vary": "Accept-Encoding",
@@ -201,31 +200,10 @@
                                     "json": {
                                         "data": [
                                             {
-                                                "email": "qinping@yinhao.cn",
+                                                "email": "eyan@fang.cn",
                                                 "event_name": "keep手环发布会",
-                                                "phone": "15736688027",
-                                                "realname": "李健",
-                                                "sign": false
-                                            },
-                                            {
-                                                "email": "smo@nama.cn",
-                                                "event_name": "keep手环发布会",
-                                                "phone": "18744195231",
-                                                "realname": "李健",
-                                                "sign": false
-                                            },
-                                            {
-                                                "email": "qiang42@jie.cn",
-                                                "event_name": "keep手环发布会",
-                                                "phone": "13036531116",
-                                                "realname": "李健",
-                                                "sign": false
-                                            },
-                                            {
-                                                "email": "fxue@hotmail.com",
-                                                "event_name": "keep手环发布会",
-                                                "phone": "13189789317",
-                                                "realname": "李健",
+                                                "phone": "18185610736",
+                                                "realname": "卢红梅",
                                                 "sign": false
                                             }
                                         ],
@@ -235,15 +213,15 @@
                                     "ok": true,
                                     "reason": "OK",
                                     "status_code": 200,
-                                    "url": "http://www.easytest.xyz/api/get_guest_list/?name=%E6%9D%8E%E5%81%A5"
+                                    "url": "http://www.easytest.xyz/api/get_guest_list/?name=%E5%8D%A2%E7%BA%A2%E6%A2%85"
                                 }
                             }
                         ],
-                        "name": "查询嘉宾接口",
+                        "name": "查询嘉宾测试用例",
                         "stat": {
-                            "content_size": 641,
-                            "elapsed_ms": 41.114,
-                            "response_time_ms": 41.9
+                            "content_size": 199,
+                            "elapsed_ms": 24.939,
+                            "response_time_ms": 27.1
                         },
                         "validators": [
                             {
@@ -265,11 +243,10 @@
                                             "Accept": "*/*",
                                             "Accept-Encoding": "gzip, deflate",
                                             "Connection": "keep-alive",
-                                            "Content-Length": "0",
                                             "User-Agent": "python-requests/2.18.4"
                                         },
-                                        "method": "POST",
-                                        "url": "http://www.easytest.xyz/api/get_guest_list/?name=%E6%9D%8E%E5%81%A5"
+                                        "method": "GET",
+                                        "url": "http://www.easytest.xyz/api/get_guest_list/?name=%E5%8D%A2%E7%BA%A2%E6%A2%85"
                                     },
                                     "response": {
                                         "content_type": "application/json",
@@ -279,7 +256,7 @@
                                             "Connection": "keep-alive",
                                             "Content-Encoding": "gzip",
                                             "Content-Type": "application/json",
-                                            "Date": "Wed, 09 Oct 2019 15:21:06 GMT",
+                                            "Date": "Thu, 10 Oct 2019 01:51:40 GMT",
                                             "Server": "nginx/1.11.3",
                                             "Transfer-Encoding": "chunked",
                                             "Vary": "Accept-Encoding",
@@ -288,31 +265,10 @@
                                         "json": {
                                             "data": [
                                                 {
-                                                    "email": "qinping@yinhao.cn",
+                                                    "email": "eyan@fang.cn",
                                                     "event_name": "keep手环发布会",
-                                                    "phone": "15736688027",
-                                                    "realname": "李健",
-                                                    "sign": false
-                                                },
-                                                {
-                                                    "email": "smo@nama.cn",
-                                                    "event_name": "keep手环发布会",
-                                                    "phone": "18744195231",
-                                                    "realname": "李健",
-                                                    "sign": false
-                                                },
-                                                {
-                                                    "email": "qiang42@jie.cn",
-                                                    "event_name": "keep手环发布会",
-                                                    "phone": "13036531116",
-                                                    "realname": "李健",
-                                                    "sign": false
-                                                },
-                                                {
-                                                    "email": "fxue@hotmail.com",
-                                                    "event_name": "keep手环发布会",
-                                                    "phone": "13189789317",
-                                                    "realname": "李健",
+                                                    "phone": "18185610736",
+                                                    "realname": "卢红梅",
                                                     "sign": false
                                                 }
                                             ],
@@ -322,15 +278,15 @@
                                         "ok": true,
                                         "reason": "OK",
                                         "status_code": 200,
-                                        "url": "http://www.easytest.xyz/api/get_guest_list/?name=%E6%9D%8E%E5%81%A5"
+                                        "url": "http://www.easytest.xyz/api/get_guest_list/?name=%E5%8D%A2%E7%BA%A2%E6%A2%85"
                                     }
                                 }
                             ],
-                            "name": "查询嘉宾接口",
+                            "name": "查询嘉宾测试用例",
                             "stat": {
-                                "content_size": 641,
-                                "elapsed_ms": 41.114,
-                                "response_time_ms": 41.9
+                                "content_size": 199,
+                                "elapsed_ms": 24.939,
+                                "response_time_ms": 27.1
                             },
                             "validators": [
                                 {
@@ -344,8 +300,8 @@
                             ]
                         }
                     ],
-                    "name": "查询嘉宾接口",
-                    "response_time": "41.90",
+                    "name": "查询嘉宾测试用例",
+                    "response_time": "27.10",
                     "status": "success"
                 }
             ],
@@ -360,14 +316,14 @@
             },
             "success": true,
             "time": {
-                "duration": 0.04787135124206543,
-                "start_at": "2019-10-09 23:21:04"
+                "duration": 0.03607439994812012,
+                "start_at": "2019-10-10 09:51:37"
             }
         }
     ],
     "platform": {
         "httprunner_version": "2.2.5",
-        "platform": "Windows-10-10.0.17763-SP0",
+        "platform": "Windows-10-10.0.18362-SP0",
         "python_version": "CPython 3.6.5"
     },
     "stat": {
@@ -388,8 +344,8 @@
     },
     "success": true,
     "time": {
-        "duration": 0.22040843963623047,
-        "start_at": 1570634464.2233138,
-        "start_datetime": "2019-10-09 23:21:04"
+        "duration": 0.18917632102966309,
+        "start_at": 1570672297.6540096,
+        "start_datetime": "2019-10-10 09:51:37"
     }
 }

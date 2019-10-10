@@ -1,0 +1,23 @@
+[32m[47mINFO    [0m [32mHttpRunner version: 2.2.5[0m
+[32m[47mINFO    [0m [32mStart to run testcase: 查询发布会测试用例[0m
+[32m[47mINFO    [0m [32mGET http://www.easytest.xyz/api/get_event_list/[0m
+[32m[47mINFO    [0m [32mstatus_code: 200, response_time(ms): 105.09 ms, response_length: 291 bytes
+[0m
+[32m[47mINFO    [0m [32mStart to run testcase: 查询嘉宾测试用例[0m
+[32m[47mINFO    [0m [32mGET http://www.easytest.xyz/api/get_guest_list/[0m
+[32m[47mINFO    [0m [32mstatus_code: 200, response_time(ms): 27.1 ms, response_length: 199 bytes
+[0m
+[32m[47mINFO    [0m [32mStart to render Html report ...[0m
+[32m[47mINFO    [0m [32mGenerated Html report: D:\HttpRunnerManager-1\reports\2019-10-10 09-51-37.html[0m
+[32m[47mINFO    [0m [32mHttpRunner version: 2.2.5[0m
+[32m[47mINFO    [0m [32mHttpRunner version: 2.2.5[0m
+[32m[47mINFO    [0m [32mHttpRunner version: 2.2.5[0m
+[32m[47mINFO    [0m [32mHttpRunner version: 2.2.5[0m
+[32m[47mINFO    [0m [32mHttpRunner version: 2.2.5[0m
+[32m[47mINFO    [0m [32mHttpRunner version: 2.2.5[0m
+[32m[47mINFO    [0m [32mHttpRunner version: 2.2.5[0m
+[32m[47mINFO    [0m [32mHttpRunner version: 2.2.5[0m
+[32m[47mINFO    [0m [32mHttpRunner version: 2.2.5[0m
+[32m[47mINFO    [0m [32mHttpRunner version: 2.2.5[0m
+[32m[47mINFO    [0m [32mHttpRunner version: 2.2.5[0m
+[32m[47mINFO    [0m [32mHttpRunner version: 2.2.5[0m

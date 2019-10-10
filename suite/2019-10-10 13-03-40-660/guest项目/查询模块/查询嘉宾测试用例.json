@@ -1,0 +1,27 @@
+[
+    {
+        "config": {
+            "base_url": "http://www.easytest.xyz/api",
+            "name": "查询嘉宾测试用例"
+        }
+    },
+    {
+        "test": {
+            "name": "查询嘉宾测试用例",
+            "request": {
+                "method": "GET",
+                "params": {
+                    "name": "卢红梅"
+                },
+                "url": "/get_guest_list/"
+            },
+            "validate": [
+                {
+                    "check": "content.message",
+                    "comparator": "equals",
+                    "expect": "success"
+                }
+            ]
+        }
+    }
+]
