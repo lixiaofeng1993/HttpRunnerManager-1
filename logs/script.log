@@ -671,3 +671,24 @@ During handling of the above exception, another exception occurred:
 Traceback (most recent call last):
 OSError: timed out
 2019-10-10 13:51:58,778 [HttpRunnerManager:55] [views:login] [INFO]- lixiaofeng 登录成功
+2019-10-11 11:32:00,769 [HttpRunnerManager:55] [views:login] [INFO]- lixiaofeng 登录成功
+2019-10-11 11:46:12,556 [HttpRunnerManager:55] [views:login] [INFO]- lixiaofeng 登录成功
+2019-10-11 11:55:04,681 [django.request:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /api/run_test/
+Traceback (most recent call last):
+httprunner.exceptions.ParamsError: Invalid testcase path or testcases: D:\HttpRunnerManager-1\suite\2019-10-11 11-55-04-680
+2019-10-11 11:59:08,407 [django.request:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /api/run_test/
+Traceback (most recent call last):
+AttributeError: 'ChannelPromise' object has no attribute '__value__'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+OSError: timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+OSError: timed out
+2019-10-11 12:04:38,170 [HttpRunnerManager:56] [views:login] [INFO]- lixiaofeng 登录成功
+2019-10-11 14:47:28,195 [HttpRunnerManager:56] [views:login] [INFO]- lixiaofeng 登录成功
+2019-10-11 14:53:52,651 [HttpRunnerManager:163] [operation:add_case_data] [INFO]- 查询发布会测试用例用例更新成功: {'test': {'request': {'url': '/get_event_list/', 'method': 'GET', 'params': {'name': '阎娜发布会'}}, 'name': '查询发布会测试用例', 'validate': [{'comparator': 'equals', 'check': 'content.message', 'expect': '1'}]}}

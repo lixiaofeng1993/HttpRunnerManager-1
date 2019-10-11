@@ -1728,3 +1728,173 @@ OSError: timed out
 2019-10-10 13:51:59,519 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/css/admin.css HTTP/1.1" 200 20853
 2019-10-10 13:51:59,521 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/js/app.js HTTP/1.1" 200 21264
 2019-10-10 13:51:59,526 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/js/commons.js HTTP/1.1" 200 13634
+2019-10-11 11:31:53,795 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/login/ HTTP/1.1" 200 3876
+2019-10-11 11:31:53,853 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/img/bg.jpg HTTP/1.1" 304 0
+2019-10-11 11:31:53,853 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/iconfont/style.css HTTP/1.1" 304 0
+2019-10-11 11:31:54,164 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/iconfont/fonts/icomoon.ttf?u4m6fy HTTP/1.1" 304 0
+2019-10-11 11:31:54,184 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/img/main_bg.png HTTP/1.1" 304 0
+2019-10-11 11:32:00,828 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 302 0
+2019-10-11 11:32:01,175 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/index/ HTTP/1.1" 200 18324
+2019-10-11 11:32:01,543 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/css/admin.css HTTP/1.1" 304 0
+2019-10-11 11:32:01,543 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/css/common.css HTTP/1.1" 304 0
+2019-10-11 11:32:01,545 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/js/app.js HTTP/1.1" 304 0
+2019-10-11 11:32:01,549 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/js/commons.js HTTP/1.1" 304 0
+2019-10-11 11:32:06,357 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/suite_list/1/ HTTP/1.1" 200 27477
+2019-10-11 11:32:10,918 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/run_test/ HTTP/1.1" 200 41172
+2019-10-11 11:33:07,741 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/run_test/ HTTP/1.1" 200 41172
+2019-10-11 11:34:24,399 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/run_test/ HTTP/1.1" 200 41171
+2019-10-11 11:37:55,561 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/run_test/ HTTP/1.1" 200 41172
+2019-10-11 11:38:22,778 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/run_test/ HTTP/1.1" 200 41172
+2019-10-11 11:39:39,463 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/run_test/ HTTP/1.1" 200 41171
+2019-10-11 11:40:22,437 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/project_list/1/ HTTP/1.1" 200 29437
+2019-10-11 11:40:23,690 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/add_project/ HTTP/1.1" 200 17501
+2019-10-11 11:40:26,601 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/debugtalk_list/1/ HTTP/1.1" 200 13726
+2019-10-11 11:40:43,968 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/debugtalk_list/1/ HTTP/1.1" 200 13726
+2019-10-11 11:40:49,410 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/debugtalk_list/1/ HTTP/1.1" 200 13726
+2019-10-11 11:40:51,980 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/add_project/ HTTP/1.1" 200 17501
+2019-10-11 11:40:53,354 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/project_list/1/ HTTP/1.1" 200 29437
+2019-10-11 11:40:54,615 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/debugtalk_list/1/ HTTP/1.1" 200 13726
+2019-10-11 11:40:56,013 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/debugtalk/3/ HTTP/1.1" 200 2640
+2019-10-11 11:41:12,283 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/debugtalk/3/ HTTP/1.1" 200 2640
+2019-10-11 11:41:12,321 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/js/commons.js HTTP/1.1" 200 13634
+2019-10-11 11:41:15,721 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/debugtalk/ HTTP/1.1" 302 0
+2019-10-11 11:41:16,018 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/debugtalk_list/1/ HTTP/1.1" 200 13727
+2019-10-11 11:41:16,367 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/js/commons.js HTTP/1.1" 200 13634
+2019-10-11 11:41:16,382 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/css/admin.css HTTP/1.1" 200 20853
+2019-10-11 11:41:16,383 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/js/app.js HTTP/1.1" 200 21264
+2019-10-11 11:41:16,390 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/css/common.css HTTP/1.1" 200 1077
+2019-10-11 11:41:18,376 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/debugtalk/3/ HTTP/1.1" 200 2642
+2019-10-11 11:41:18,667 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/js/commons.js HTTP/1.1" 200 13634
+2019-10-11 11:46:07,863 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/login/ HTTP/1.1" 200 3876
+2019-10-11 11:46:12,561 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 302 0
+2019-10-11 11:46:12,597 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/index/ HTTP/1.1" 200 18324
+2019-10-11 11:46:17,875 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/suite_list/1/ HTTP/1.1" 200 27477
+2019-10-11 11:46:21,639 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/run_test/ HTTP/1.1" 200 41172
+2019-10-11 11:48:19,644 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/run_test/ HTTP/1.1" 200 41172
+2019-10-11 11:50:26,219 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/test_list/1/ HTTP/1.1" 200 27289
+2019-10-11 11:50:26,358 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/add_case/ HTTP/1.1" 200 0
+2019-10-11 11:50:29,657 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/run_test/ HTTP/1.1" 200 29793
+2019-10-11 11:50:31,782 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/add_case/ HTTP/1.1" 200 0
+2019-10-11 11:50:35,079 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/run_test/ HTTP/1.1" 200 29485
+2019-10-11 11:51:05,841 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/add_case/ HTTP/1.1" 200 0
+2019-10-11 11:51:07,702 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/run_test/ HTTP/1.1" 200 29485
+2019-10-11 11:53:05,360 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/add_case/ HTTP/1.1" 200 0
+2019-10-11 11:55:04,681 [django.request:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /api/run_test/
+Traceback (most recent call last):
+httprunner.exceptions.ParamsError: Invalid testcase path or testcases: D:\HttpRunnerManager-1\suite\2019-10-11 11-55-04-680
+2019-10-11 11:55:04,834 [django.server:124] [basehttp:log_message] [ERROR]- "POST /api/run_test/ HTTP/1.1" 500 86581
+2019-10-11 11:57:34,264 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/add_case/ HTTP/1.1" 200 0
+2019-10-11 11:57:36,361 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/run_test/ HTTP/1.1" 200 29485
+2019-10-11 11:58:31,851 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/add_case/ HTTP/1.1" 200 0
+2019-10-11 11:58:34,896 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/suite_list/1/ HTTP/1.1" 200 27477
+2019-10-11 11:59:08,407 [django.request:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /api/run_test/
+Traceback (most recent call last):
+AttributeError: 'ChannelPromise' object has no attribute '__value__'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+OSError: timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+OSError: timed out
+2019-10-11 11:59:08,493 [django.server:124] [basehttp:log_message] [ERROR]- "POST /api/run_test/ HTTP/1.1" 500 22385
+2019-10-11 12:04:33,799 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/login/ HTTP/1.1" 200 3876
+2019-10-11 12:04:38,175 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 302 0
+2019-10-11 12:04:38,210 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/index/ HTTP/1.1" 200 18324
+2019-10-11 12:04:41,708 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/suite_list/1/ HTTP/1.1" 200 27477
+2019-10-11 12:04:46,995 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/run_test/ HTTP/1.1" 200 73
+2019-10-11 12:04:58,323 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/report_list/1/ HTTP/1.1" 200 14413
+2019-10-11 12:05:10,932 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/report_list/1/ HTTP/1.1" 200 14413
+2019-10-11 12:55:14,613 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/suite_list/1/ HTTP/1.1" 200 27477
+2019-10-11 12:56:11,639 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/run_test/ HTTP/1.1" 200 73
+2019-10-11 12:56:40,810 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/run_test/ HTTP/1.1" 200 73
+2019-10-11 12:57:20,748 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/suite_list/1/ HTTP/1.1" 200 27477
+2019-10-11 12:57:20,892 [django.server:124] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 302 0
+2019-10-11 12:57:20,905 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/img/favicon.ico HTTP/1.1" 200 67646
+2019-10-11 12:57:24,797 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/run_test/ HTTP/1.1" 200 73
+2019-10-11 12:58:02,417 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/run_test/ HTTP/1.1" 200 73
+2019-10-11 12:58:41,885 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/run_test/ HTTP/1.1" 200 73
+2019-10-11 13:08:12,974 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/suite_list/1/ HTTP/1.1" 200 27477
+2019-10-11 13:08:13,152 [django.server:124] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 302 0
+2019-10-11 13:08:13,157 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/img/favicon.ico HTTP/1.1" 200 67646
+2019-10-11 13:08:19,275 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/run_test/ HTTP/1.1" 200 73
+2019-10-11 13:09:48,341 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/run_test/ HTTP/1.1" 200 73
+2019-10-11 13:12:03,643 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/run_test/ HTTP/1.1" 200 73
+2019-10-11 13:13:16,430 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/run_test/ HTTP/1.1" 200 73
+2019-10-11 13:14:26,066 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/run_test/ HTTP/1.1" 200 73
+2019-10-11 13:15:47,427 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/run_test/ HTTP/1.1" 200 73
+2019-10-11 13:16:48,490 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/run_test/ HTTP/1.1" 200 73
+2019-10-11 13:27:01,129 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/run_test/ HTTP/1.1" 200 73
+2019-10-11 13:30:24,527 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/run_test/ HTTP/1.1" 200 73
+2019-10-11 13:32:49,549 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/run_test/ HTTP/1.1" 200 73
+2019-10-11 13:33:08,091 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/run_test/ HTTP/1.1" 200 73
+2019-10-11 13:52:16,075 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/run_test/ HTTP/1.1" 200 73
+2019-10-11 13:55:13,313 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/run_test/ HTTP/1.1" 200 73
+2019-10-11 13:57:28,335 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/run_test/ HTTP/1.1" 200 73
+2019-10-11 13:57:32,551 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/report_list/1/ HTTP/1.1" 200 14413
+2019-10-11 14:03:20,459 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/suite_list/1/ HTTP/1.1" 200 27477
+2019-10-11 14:03:26,051 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/run_test/ HTTP/1.1" 200 73
+2019-10-11 14:05:59,562 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/run_test/ HTTP/1.1" 200 73
+2019-10-11 14:09:20,574 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/run_test/ HTTP/1.1" 200 73
+2019-10-11 14:10:06,982 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/run_test/ HTTP/1.1" 200 73
+2019-10-11 14:11:06,006 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/report_list/1/ HTTP/1.1" 200 16281
+2019-10-11 14:11:13,518 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/download_report/1? HTTP/1.1" 301 0
+2019-10-11 14:11:13,567 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/download_report/1/ HTTP/1.1" 200 47
+2019-10-11 14:13:42,158 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/suite_list/1/ HTTP/1.1" 200 27477
+2019-10-11 14:13:47,098 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/run_test/ HTTP/1.1" 200 73
+2019-10-11 14:14:21,041 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/run_test/ HTTP/1.1" 200 73
+2019-10-11 14:16:02,934 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/run_test/ HTTP/1.1" 200 73
+2019-10-11 14:18:01,679 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/run_test/ HTTP/1.1" 200 73
+2019-10-11 14:20:19,454 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/run_test/ HTTP/1.1" 200 73
+2019-10-11 14:21:13,812 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/run_test/ HTTP/1.1" 200 73
+2019-10-11 14:44:52,710 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/suite_list/1/ HTTP/1.1" 200 27477
+2019-10-11 14:44:52,913 [django.server:124] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 302 0
+2019-10-11 14:44:52,918 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/img/favicon.ico HTTP/1.1" 200 67646
+2019-10-11 14:44:57,339 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/run_test/ HTTP/1.1" 200 73
+2019-10-11 14:46:18,840 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/run_test/ HTTP/1.1" 200 73
+2019-10-11 14:46:56,997 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/report_list/1/ HTTP/1.1" 200 17975
+2019-10-11 14:47:00,909 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/view_report/1 HTTP/1.1" 301 0
+2019-10-11 14:47:00,924 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/view_report/1/ HTTP/1.1" 200 47
+2019-10-11 14:47:03,453 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/view_report/2 HTTP/1.1" 301 0
+2019-10-11 14:47:03,467 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/view_report/2/ HTTP/1.1" 200 20342
+2019-10-11 14:47:23,506 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/login/ HTTP/1.1" 200 3876
+2019-10-11 14:47:28,199 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 302 0
+2019-10-11 14:47:28,231 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/index/ HTTP/1.1" 200 18326
+2019-10-11 14:47:34,795 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/report_list/1/ HTTP/1.1" 200 17975
+2019-10-11 14:47:37,538 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/view_report/2/ HTTP/1.1" 200 20342
+2019-10-11 14:47:51,699 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/report_list/1/ HTTP/1.1" 200 2
+2019-10-11 14:47:51,720 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/report_list/1/ HTTP/1.1" 200 16281
+2019-10-11 14:47:53,377 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/view_report/2/ HTTP/1.1" 200 20342
+2019-10-11 14:48:35,755 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/suite_list/1/ HTTP/1.1" 200 27477
+2019-10-11 14:48:40,609 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/run_test/ HTTP/1.1" 200 73
+2019-10-11 14:48:44,680 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/report_list/1/ HTTP/1.1" 200 17975
+2019-10-11 14:48:51,309 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/view_report/3 HTTP/1.1" 301 0
+2019-10-11 14:48:51,639 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/view_report/3/ HTTP/1.1" 200 20341
+2019-10-11 14:50:21,540 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/view_report/3/ HTTP/1.1" 200 20341
+2019-10-11 14:53:47,037 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/test_list/1/ HTTP/1.1" 200 27289
+2019-10-11 14:53:47,145 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/add_case/ HTTP/1.1" 200 0
+2019-10-11 14:53:48,266 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/edit_case/11/ HTTP/1.1" 200 42144
+2019-10-11 14:53:52,665 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/edit_case/ HTTP/1.1" 200 17
+2019-10-11 14:53:52,693 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/test_list/1/ HTTP/1.1" 200 27289
+2019-10-11 14:53:52,984 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/add_case/ HTTP/1.1" 200 0
+2019-10-11 14:53:55,234 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/suite_list/1/ HTTP/1.1" 200 27477
+2019-10-11 14:53:59,183 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/run_test/ HTTP/1.1" 200 73
+2019-10-11 14:54:03,257 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/report_list/1/ HTTP/1.1" 200 19664
+2019-10-11 14:54:04,526 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/view_report/4 HTTP/1.1" 301 0
+2019-10-11 14:54:04,842 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/view_report/4/ HTTP/1.1" 200 21272
+2019-10-11 14:55:20,996 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/suite_list/1/ HTTP/1.1" 200 27477
+2019-10-11 14:55:36,804 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/run_test/ HTTP/1.1" 200 73
+2019-10-11 14:55:39,364 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/report_list/1/ HTTP/1.1" 200 21353
+2019-10-11 14:55:40,463 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/view_report/5 HTTP/1.1" 301 0
+2019-10-11 14:55:40,779 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/view_report/5/ HTTP/1.1" 200 21272
+2019-10-11 14:56:33,419 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/suite_list/1/ HTTP/1.1" 200 27477
+2019-10-11 14:56:47,422 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/run_test/ HTTP/1.1" 200 73
+2019-10-11 14:56:50,521 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/report_list/1/ HTTP/1.1" 200 23035
+2019-10-11 14:56:52,966 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/view_report/6 HTTP/1.1" 301 0
+2019-10-11 14:56:53,273 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/view_report/6/ HTTP/1.1" 200 21271
+2019-10-11 14:59:02,478 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/report_list/1/ HTTP/1.1" 200 23035
+2019-10-11 15:01:03,321 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/debugtalk_list/1/ HTTP/1.1" 200 13727
+2019-10-11 15:01:32,322 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/debugtalk/3/ HTTP/1.1" 200 2642

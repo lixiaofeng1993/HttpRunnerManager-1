@@ -84,7 +84,7 @@
         $('#select_all').click(function () {
             var isChecked = $(this).prop("checked");
             $("input[name^='report']").prop("checked", isChecked);
-        })
+        });
 
         function download_report(id) {
             var $eleForm = $("<form method='get'></form>");

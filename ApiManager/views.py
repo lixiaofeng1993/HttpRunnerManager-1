@@ -28,6 +28,7 @@ from httprunner.api import HttpRunner
 
 logger = logging.getLogger('HttpRunnerManager')
 
+
 # Create your views here.
 
 
@@ -231,10 +232,10 @@ def run_test(request):
         id = request.POST.get('id')
         base_url = request.POST.get('env_name')
         type = request.POST.get('type', 'test')
-        print(id, base_url, testcase_dir_path, type)
+
         run_test_by_type(id, base_url, testcase_dir_path, type)
         runner.run(testcase_dir_path)
-        shutil.rmtree(testcase_dir_path)
+        shutil.rmtree(testcase_dir_path)  # 递归删除所有文件
         runner._summary = timestamp_to_datetime(runner._summary, base_url, type=False)
         with open('summary.json', 'w', encoding='utf-8') as f:
             json.dump(runner._summary, f, ensure_ascii=False, sort_keys=True, indent=4)
@@ -278,7 +279,7 @@ def run_batch_test(request):
         runner.run(testcase_dir_path)
 
         shutil.rmtree(testcase_dir_path)
-        runner._summary = timestamp_to_datetime(runner._summary,type=False)
+        runner._summary = timestamp_to_datetime(runner._summary, type=False)
 
         return render_to_response('report_template.html', runner._summary)
 
