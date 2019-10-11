@@ -231,7 +231,7 @@ def run_test(request):
         id = request.POST.get('id')
         base_url = request.POST.get('env_name')
         type = request.POST.get('type', 'test')
-
+        print(id, base_url, testcase_dir_path, type)
         run_test_by_type(id, base_url, testcase_dir_path, type)
         runner.run(testcase_dir_path)
         shutil.rmtree(testcase_dir_path)
