@@ -447,8 +447,10 @@ def add_test_reports(runner, report_name=None):
 
     while True:
         if not os.path.exists(report_path):
+            logging.info('{report_path} 报告路径不存在，2秒后再次查询.'.format(report_path=report_path))
             time.sleep(2)
         else:
+            logging.info('{report_path} 报告路径存在.'.format(report_path=report_path))
             break
 
     with open(report_path, encoding='utf-8') as stream:
