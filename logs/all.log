@@ -2064,3 +2064,313 @@ OSError: timed out
 2019-10-12 17:27:54,442 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/run_test/ HTTP/1.1" 200 73
 2019-10-12 17:55:10,351 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/run_test/ HTTP/1.1" 200 73
 2019-10-12 17:55:14,116 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/report_list/1/ HTTP/1.1" 200 35051
+2019-10-12 18:58:24,678 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/suite_list/1/ HTTP/1.1" 200 27477
+2019-10-12 18:58:25,599 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/edit_suite/3/ HTTP/1.1" 200 18620
+2019-10-12 18:58:27,866 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/edit_case/10/ HTTP/1.1" 200 42135
+2019-10-12 18:59:24,347 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/edit_case/11/ HTTP/1.1" 200 42148
+2019-10-24 17:32:18,446 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/login/ HTTP/1.1" 200 3876
+2019-10-24 17:32:18,487 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/iconfont/style.css HTTP/1.1" 200 1722
+2019-10-24 17:32:18,490 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/img/bg.jpg HTTP/1.1" 200 135990
+2019-10-24 17:32:18,792 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/iconfont/fonts/icomoon.ttf?u4m6fy HTTP/1.1" 200 6900
+2019-10-24 17:32:18,845 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/img/main_bg.png HTTP/1.1" 200 2801
+2019-10-24 17:32:19,168 [django.server:124] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 302 0
+2019-10-24 17:32:19,426 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/img/favicon.ico HTTP/1.1" 200 67646
+2019-10-24 17:32:24,988 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 302 0
+2019-10-24 17:32:25,365 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/index/ HTTP/1.1" 200 18324
+2019-10-24 17:32:25,696 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/css/admin.css HTTP/1.1" 304 0
+2019-10-24 17:32:25,697 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/css/common.css HTTP/1.1" 304 0
+2019-10-24 17:32:25,705 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/js/app.js HTTP/1.1" 200 21264
+2019-10-24 17:32:25,716 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/js/commons.js HTTP/1.1" 200 13634
+2019-10-24 17:32:30,256 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/project_list/1/ HTTP/1.1" 200 29437
+2019-10-24 17:32:32,363 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/add_project/ HTTP/1.1" 200 17501
+2019-10-24 17:33:29,121 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/add_module/ HTTP/1.1" 200 16174
+2019-10-24 17:34:05,701 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/add_module/ HTTP/1.1" 200 39
+2019-10-24 17:34:11,570 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/add_module/ HTTP/1.1" 200 19
+2019-10-24 17:34:11,918 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/module_list/1/ HTTP/1.1" 200 30789
+2019-10-24 17:34:20,842 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/project_list/1/ HTTP/1.1" 200 29437
+2019-10-24 17:34:22,572 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/add_project/ HTTP/1.1" 200 17501
+2019-10-24 17:34:46,668 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/add_project/ HTTP/1.1" 200 20
+2019-10-24 17:34:46,931 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/project_list/1/ HTTP/1.1" 200 32422
+2019-10-24 17:34:49,619 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/module_list/1/ HTTP/1.1" 200 31084
+2019-10-24 17:34:51,576 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/add_module/ HTTP/1.1" 200 16294
+2019-10-24 17:34:56,417 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/add_module/ HTTP/1.1" 200 19
+2019-10-24 17:34:56,792 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/module_list/1/ HTTP/1.1" 200 33717
+2019-10-24 17:34:59,492 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/add_case/ HTTP/1.1" 200 34552
+2019-10-24 17:35:04,294 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/add_case/ HTTP/1.1" 200 15
+2019-10-24 17:35:06,766 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/add_case/ HTTP/1.1" 200 0
+2019-10-24 17:35:06,766 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/add_case/ HTTP/1.1" 200 0
+2019-10-24 17:39:36,371 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/add_case/ HTTP/1.1" 200 15
+2019-10-24 17:39:38,194 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/add_case/ HTTP/1.1" 200 17
+2019-10-24 17:39:38,572 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/test_list/1/ HTTP/1.1" 200 30089
+2019-10-24 17:39:38,720 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/add_case/ HTTP/1.1" 200 0
+2019-10-24 17:39:41,550 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/test_list/1/ HTTP/1.1" 200 30089
+2019-10-24 17:39:41,858 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/add_case/ HTTP/1.1" 200 0
+2019-10-24 17:39:50,130 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/env_list/1/ HTTP/1.1" 200 19768
+2019-10-24 17:40:13,375 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/env_set/ HTTP/1.1" 200 2
+2019-10-24 17:40:13,625 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/env_list/1/ HTTP/1.1" 200 21612
+2019-10-24 17:40:15,883 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/test_list/1/ HTTP/1.1" 200 30230
+2019-10-24 17:40:16,189 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/add_case/ HTTP/1.1" 200 0
+2019-10-24 17:40:20,486 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/run_test/ HTTP/1.1" 200 28885
+2019-10-24 17:42:24,269 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/add_case/ HTTP/1.1" 200 0
+2019-10-24 17:42:25,929 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/debugtalk_list/1/ HTTP/1.1" 200 14228
+2019-10-24 17:42:29,540 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/debugtalk_list/1/ HTTP/1.1" 200 14228
+2019-10-24 17:42:32,564 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/debugtalk/4/ HTTP/1.1" 200 2640
+2019-10-24 17:42:38,489 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/debugtalk/4/ HTTP/1.1" 200 2640
+2019-10-24 17:50:35,923 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/debugtalk/4/ HTTP/1.1" 200 2640
+2019-10-25 13:14:33,703 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/login/ HTTP/1.1" 200 3876
+2019-10-25 13:14:38,895 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 302 0
+2019-10-25 13:14:38,959 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/index/ HTTP/1.1" 200 18324
+2019-10-25 13:14:46,905 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/test_list/1/ HTTP/1.1" 200 30230
+2019-10-25 13:14:47,025 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/add_case/ HTTP/1.1" 200 0
+2019-10-25 13:14:57,894 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/edit_case/12/ HTTP/1.1" 200 36829
+2019-10-25 13:16:15,282 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/add_case/ HTTP/1.1" 200 0
+2019-10-25 13:16:19,712 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/test_list/1/ HTTP/1.1" 200 30230
+2019-10-25 13:16:19,811 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/add_case/ HTTP/1.1" 200 0
+2019-10-25 13:16:22,084 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/add_case/ HTTP/1.1" 200 34552
+2019-10-25 13:16:24,160 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/add_case/ HTTP/1.1" 200 41
+2019-10-25 13:16:26,608 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/add_case/ HTTP/1.1" 200 70
+2019-10-25 13:16:26,928 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/add_case/ HTTP/1.1" 200 0
+2019-10-25 13:24:44,709 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/add_case/ HTTP/1.1" 200 41
+2019-10-25 13:24:46,629 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/add_case/ HTTP/1.1" 200 17
+2019-10-25 13:24:47,002 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/test_list/1/ HTTP/1.1" 200 32737
+2019-10-25 13:24:47,206 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/add_case/ HTTP/1.1" 200 0
+2019-10-25 13:24:52,417 [django.request:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /api/run_test/
+Traceback (most recent call last):
+AttributeError: module 'builtins' has no attribute 'get_random_name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+httprunner.exceptions.FunctionNotFound: get_random_name is not found.
+2019-10-25 13:24:52,579 [django.server:124] [basehttp:log_message] [ERROR]- "POST /api/run_test/ HTTP/1.1" 500 162083
+2019-10-25 13:27:01,620 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/add_case/ HTTP/1.1" 200 0
+2019-10-25 13:27:14,984 [django.request:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /api/run_test/
+Traceback (most recent call last):
+AttributeError: module 'builtins' has no attribute 'get_random_name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+httprunner.exceptions.FunctionNotFound: get_random_name is not found.
+2019-10-25 13:27:15,050 [django.server:124] [basehttp:log_message] [ERROR]- "POST /api/run_test/ HTTP/1.1" 500 162119
+2019-10-25 13:27:48,570 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/add_case/ HTTP/1.1" 200 0
+2019-10-25 13:27:50,108 [django.request:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /api/run_test/
+Traceback (most recent call last):
+AttributeError: module 'builtins' has no attribute 'get_random_name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+httprunner.exceptions.FunctionNotFound: get_random_name is not found.
+2019-10-25 13:27:50,217 [django.server:124] [basehttp:log_message] [ERROR]- "POST /api/run_test/ HTTP/1.1" 500 162083
+2019-10-25 13:28:07,531 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/add_case/ HTTP/1.1" 200 0
+2019-10-25 13:28:08,266 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/project_list/1/ HTTP/1.1" 200 32563
+2019-10-25 13:28:09,379 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/debugtalk_list/1/ HTTP/1.1" 200 14228
+2019-10-25 13:28:10,927 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/debugtalk/3/ HTTP/1.1" 200 2642
+2019-10-25 13:29:32,580 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/debugtalk/ HTTP/1.1" 302 0
+2019-10-25 13:29:32,606 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/debugtalk_list/1/ HTTP/1.1" 200 14228
+2019-10-25 13:29:34,478 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/debugtalk/4/ HTTP/1.1" 200 2640
+2019-10-25 13:29:36,643 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/debugtalk/3/ HTTP/1.1" 200 2760
+2019-10-25 13:29:41,128 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/test_list/1/ HTTP/1.1" 200 32737
+2019-10-25 13:29:41,236 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/add_case/ HTTP/1.1" 200 0
+2019-10-25 13:29:44,883 [django.request:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /api/run_test/
+Traceback (most recent call last):
+AttributeError: module 'builtins' has no attribute 'get_random_name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+httprunner.exceptions.FunctionNotFound: get_random_name is not found.
+2019-10-25 13:29:44,960 [django.server:124] [basehttp:log_message] [ERROR]- "POST /api/run_test/ HTTP/1.1" 500 162182
+2019-10-25 13:29:48,372 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/add_case/ HTTP/1.1" 200 0
+2019-10-25 13:29:52,550 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/suite_list/1/ HTTP/1.1" 200 27913
+2019-10-25 13:29:58,095 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/edit_suite/3/ HTTP/1.1" 200 18947
+2019-10-25 13:30:04,775 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/edit_suite/ HTTP/1.1" 200 18
+2019-10-25 13:30:05,129 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/suite_list/1/ HTTP/1.1" 200 27914
+2019-10-25 13:30:06,692 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/edit_suite/3/ HTTP/1.1" 200 18947
+2019-10-25 13:30:11,326 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/edit_suite/3/?suite_name=%E6%9F%A5%E8%AF%A2%E7%BB%84%E4%BB%B6 HTTP/1.1" 200 18947
+2019-10-25 13:30:24,786 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/test_list/1/ HTTP/1.1" 200 32737
+2019-10-25 13:30:24,921 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/add_case/ HTTP/1.1" 200 0
+2019-10-25 13:30:31,773 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/suite_list/1/ HTTP/1.1" 200 27914
+2019-10-25 13:30:32,967 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/edit_suite/3/ HTTP/1.1" 200 18947
+2019-10-25 13:30:35,072 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/add_case/ HTTP/1.1" 200 15
+2019-10-25 13:30:37,655 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/add_case/ HTTP/1.1" 200 41
+2019-10-25 13:30:39,629 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/add_case/ HTTP/1.1" 200 100
+2019-10-25 13:30:46,168 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/edit_suite/ HTTP/1.1" 200 18
+2019-10-25 13:30:46,441 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/suite_list/1/ HTTP/1.1" 200 28350
+2019-10-25 13:30:51,303 [django.request:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /api/run_test/
+Traceback (most recent call last):
+AttributeError: module 'builtins' has no attribute 'get_random_name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+httprunner.exceptions.FunctionNotFound: get_random_name is not found.
+2019-10-25 13:30:51,362 [django.server:124] [basehttp:log_message] [ERROR]- "POST /api/run_test/ HTTP/1.1" 500 171279
+2019-10-25 13:31:03,448 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/run_test/ HTTP/1.1" 200 73
+2019-10-25 13:31:07,831 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/report_list/1/ HTTP/1.1" 200 35051
+2019-10-25 13:33:12,709 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/suite_list/1/ HTTP/1.1" 200 28350
+2019-10-25 13:33:17,850 [django.request:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /api/run_test/
+Traceback (most recent call last):
+AttributeError: module 'builtins' has no attribute 'get_random_name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+httprunner.exceptions.FunctionNotFound: get_random_name is not found.
+2019-10-25 13:33:17,915 [django.server:124] [basehttp:log_message] [ERROR]- "POST /api/run_test/ HTTP/1.1" 500 171243
+2019-10-25 13:34:34,797 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/debugtalk_list/1/ HTTP/1.1" 200 14228
+2019-10-25 13:34:36,268 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/debugtalk/3/ HTTP/1.1" 200 2760
+2019-10-25 13:34:40,909 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/debugtalk/ HTTP/1.1" 302 0
+2019-10-25 13:34:41,214 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/debugtalk_list/1/ HTTP/1.1" 200 14228
+2019-10-25 13:34:44,548 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/suite_list/1/ HTTP/1.1" 200 28350
+2019-10-25 13:34:49,227 [django.request:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /api/run_test/
+Traceback (most recent call last):
+AttributeError: module 'builtins' has no attribute 'get_random_name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+httprunner.exceptions.FunctionNotFound: get_random_name is not found.
+2019-10-25 13:34:49,285 [django.server:124] [basehttp:log_message] [ERROR]- "POST /api/run_test/ HTTP/1.1" 500 171279
+2019-10-25 13:39:47,945 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/suite_list/1/ HTTP/1.1" 200 28350
+2019-10-25 13:39:48,065 [django.server:124] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 302 0
+2019-10-25 13:39:48,386 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/img/favicon.ico HTTP/1.1" 200 67646
+2019-10-25 13:39:53,824 [django.request:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /api/run_test/
+Traceback (most recent call last):
+AttributeError: module 'builtins' has no attribute 'get_random_name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+httprunner.exceptions.FunctionNotFound: get_random_name is not found.
+2019-10-25 13:39:53,883 [django.server:124] [basehttp:log_message] [ERROR]- "POST /api/run_test/ HTTP/1.1" 500 171315
+2019-10-25 13:41:02,086 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/edit_case/13/ HTTP/1.1" 200 38226
+2019-10-25 13:41:40,422 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/edit_case/ HTTP/1.1" 200 17
+2019-10-25 13:41:40,688 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/test_list/1/ HTTP/1.1" 200 32737
+2019-10-25 13:41:40,835 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/add_case/ HTTP/1.1" 200 0
+2019-10-25 13:41:43,440 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/edit_case/13/ HTTP/1.1" 200 42442
+2019-10-25 13:42:55,071 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/suite_list/1/ HTTP/1.1" 200 28350
+2019-10-25 13:42:58,962 [django.request:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /api/run_test/
+Traceback (most recent call last):
+AttributeError: module 'builtins' has no attribute 'get_random_name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+httprunner.exceptions.FunctionNotFound: get_random_name is not found.
+2019-10-25 13:42:59,026 [django.server:124] [basehttp:log_message] [ERROR]- "POST /api/run_test/ HTTP/1.1" 500 172882
+2019-10-25 13:46:43,029 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/edit_suite/3/ HTTP/1.1" 200 19314
+2019-10-25 13:46:45,305 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/edit_case/13/ HTTP/1.1" 200 42442
+2019-10-25 14:18:21,082 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/suite_list/1/ HTTP/1.1" 200 28350
+2019-10-25 14:19:10,696 [django.request:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /api/run_test/
+Traceback (most recent call last):
+AttributeError: module 'builtins' has no attribute 'get_random_name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+httprunner.exceptions.FunctionNotFound: get_random_name is not found.
+2019-10-25 14:19:10,803 [django.server:124] [basehttp:log_message] [ERROR]- "POST /api/run_test/ HTTP/1.1" 500 172975
+2019-10-25 14:20:08,386 [django.request:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /api/run_test/
+Traceback (most recent call last):
+AttributeError: module 'builtins' has no attribute 'get_random_name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+httprunner.exceptions.FunctionNotFound: get_random_name is not found.
+2019-10-25 14:20:08,513 [django.server:124] [basehttp:log_message] [ERROR]- "POST /api/run_test/ HTTP/1.1" 500 173151
+2019-10-25 14:20:20,913 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/debugtalk_list/1/ HTTP/1.1" 200 14228
+2019-10-25 14:20:22,363 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/debugtalk/4/ HTTP/1.1" 200 2640
+2019-10-25 14:20:25,971 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/debugtalk/3/ HTTP/1.1" 200 2760
+2019-10-25 14:22:36,067 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/test_list/1/ HTTP/1.1" 200 32737
+2019-10-25 14:22:36,191 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/add_case/ HTTP/1.1" 200 0
+2019-10-25 14:22:44,217 [django.request:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /api/run_test/
+Traceback (most recent call last):
+AttributeError: module 'builtins' has no attribute 'get_random_name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+httprunner.exceptions.FunctionNotFound: get_random_name is not found.
+2019-10-25 14:22:44,348 [django.server:124] [basehttp:log_message] [ERROR]- "POST /api/run_test/ HTTP/1.1" 500 163879
+2019-10-25 14:25:25,856 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/add_case/ HTTP/1.1" 200 0
+2019-10-25 14:25:28,189 [django.request:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /api/run_test/
+Traceback (most recent call last):
+AttributeError: module 'builtins' has no attribute 'get_random_name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+httprunner.exceptions.FunctionNotFound: get_random_name is not found.
+2019-10-25 14:25:28,309 [django.server:124] [basehttp:log_message] [ERROR]- "POST /api/run_test/ HTTP/1.1" 500 163879
+2019-10-25 14:26:02,996 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/add_case/ HTTP/1.1" 200 0
+2019-10-25 14:26:04,857 [django.request:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /api/run_test/
+Traceback (most recent call last):
+AttributeError: module 'builtins' has no attribute 'get_random_name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+httprunner.exceptions.FunctionNotFound: get_random_name is not found.
+2019-10-25 14:26:04,961 [django.server:124] [basehttp:log_message] [ERROR]- "POST /api/run_test/ HTTP/1.1" 500 163879
+2019-10-25 14:27:28,460 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/add_case/ HTTP/1.1" 200 0
+2019-10-25 14:27:30,982 [django.request:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /api/run_test/
+Traceback (most recent call last):
+AttributeError: module 'builtins' has no attribute 'get_random_name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+httprunner.exceptions.FunctionNotFound: get_random_name is not found.
+2019-10-25 14:27:31,088 [django.server:124] [basehttp:log_message] [ERROR]- "POST /api/run_test/ HTTP/1.1" 500 163878
+2019-10-25 14:27:55,228 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/add_case/ HTTP/1.1" 200 0
+2019-10-25 14:27:56,979 [django.request:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /api/run_test/
+Traceback (most recent call last):
+AttributeError: module 'builtins' has no attribute 'get_random_name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+httprunner.exceptions.FunctionNotFound: get_random_name is not found.
+2019-10-25 14:27:57,086 [django.server:124] [basehttp:log_message] [ERROR]- "POST /api/run_test/ HTTP/1.1" 500 163879
+2019-10-25 14:28:45,715 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/add_case/ HTTP/1.1" 200 0
+2019-10-25 14:28:50,282 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/run_test/ HTTP/1.1" 200 30629
+2019-10-25 14:29:12,929 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/add_case/ HTTP/1.1" 200 0
+2019-10-25 14:29:14,110 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/edit_case/13/ HTTP/1.1" 200 42442
+2019-10-25 14:30:09,109 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/edit_case/ HTTP/1.1" 200 17
+2019-10-25 14:30:09,388 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/test_list/1/ HTTP/1.1" 200 32737
+2019-10-25 14:30:09,553 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/add_case/ HTTP/1.1" 200 0
+2019-10-25 14:30:13,236 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/run_test/ HTTP/1.1" 200 30550
+2019-10-25 14:30:30,575 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/add_case/ HTTP/1.1" 200 0
+2019-10-25 14:30:31,329 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/edit_case/13/ HTTP/1.1" 200 51686
+2019-10-25 14:30:41,717 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/edit_case/ HTTP/1.1" 200 17
+2019-10-25 14:30:41,986 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/test_list/1/ HTTP/1.1" 200 32737
+2019-10-25 14:30:42,139 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/add_case/ HTTP/1.1" 200 0
+2019-10-25 14:30:46,009 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/run_test/ HTTP/1.1" 200 30652
+2019-10-25 14:30:55,061 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/add_case/ HTTP/1.1" 200 0
+2019-10-25 14:30:57,600 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/run_test/ HTTP/1.1" 200 29257
+2019-10-25 14:32:35,798 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/add_case/ HTTP/1.1" 200 0
+2019-10-25 14:32:37,354 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/test_list/1/ HTTP/1.1" 200 32737
+2019-10-25 14:32:37,469 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/add_case/ HTTP/1.1" 200 0
+2019-10-25 14:32:37,810 [django.server:124] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 302 0
+2019-10-25 14:32:38,061 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/img/favicon.ico HTTP/1.1" 200 67646
+2019-10-25 14:32:42,120 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/run_test/ HTTP/1.1" 200 30653
+2019-10-25 14:32:55,764 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/add_case/ HTTP/1.1" 200 0
+2019-10-25 14:39:58,224 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/edit_case/12/ HTTP/1.1" 200 36829
+2019-10-25 14:40:14,218 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/debugtalk_list/1/ HTTP/1.1" 200 14228
+2019-10-25 14:40:16,796 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/debugtalk/4/ HTTP/1.1" 200 2640
+2019-10-25 14:40:19,277 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/debugtalk/3/ HTTP/1.1" 200 2760
+2019-10-25 14:41:31,691 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/debugtalk/3/ HTTP/1.1" 200 2760
+2019-10-25 14:42:50,733 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/debugtalk/3/ HTTP/1.1" 200 2760
+2019-10-25 14:42:54,831 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/test_list/1/ HTTP/1.1" 200 32737
+2019-10-25 14:42:54,938 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/add_case/ HTTP/1.1" 200 0
+2019-10-25 14:42:59,732 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/edit_case/13/ HTTP/1.1" 200 51686
+2019-10-25 14:48:24,738 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/test_list/1/ HTTP/1.1" 200 32737
+2019-10-25 14:48:24,893 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/add_case/ HTTP/1.1" 200 0
+2019-10-25 14:48:25,804 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/edit_case/12/ HTTP/1.1" 200 36829
+2019-10-25 15:49:09,200 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/module_list/1/ HTTP/1.1" 200 33858
+2019-10-25 15:49:12,166 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/report_list/1/ HTTP/1.1" 200 35051
+2019-10-25 15:49:13,759 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/view_report/20 HTTP/1.1" 301 0
+2019-10-25 15:49:14,061 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/view_report/20/ HTTP/1.1" 200 20333

@@ -701,3 +701,141 @@ OSError: timed out
 2019-10-12 16:44:02,792 [HttpRunnerManager:163] [operation:add_case_data] [INFO]- 查询发布会测试用例用例更新成功: {'test': {'request': {'url': '/get_event_list/', 'method': 'GET', 'params': {'name': 'keep手环发布会'}}, 'name': '查询发布会测试用例', 'validate': [{'comparator': 'equals', 'check': 'content.message', 'expect': 'success'}]}}
 2019-10-12 16:44:19,967 [HttpRunnerManager:163] [operation:add_case_data] [INFO]- 查询嘉宾测试用例用例更新成功: {'test': {'request': {'url': '/get_guest_list/', 'method': 'GET', 'params': {'name': '杨雪梅'}}, 'name': '查询嘉宾测试用例', 'validate': [{'comparator': 'equals', 'check': 'content.message', 'expect': ''}]}}
 2019-10-12 16:44:26,650 [HttpRunnerManager:163] [operation:add_case_data] [INFO]- 查询嘉宾测试用例用例更新成功: {'test': {'request': {'url': '/get_guest_list/', 'method': 'GET', 'params': {'name': '杨雪梅'}}, 'name': '查询嘉宾测试用例', 'validate': [{'comparator': 'equals', 'check': 'content.message', 'expect': 'success'}]}}
+2019-10-24 17:32:24,980 [HttpRunnerManager:56] [views:login] [INFO]- lixiaofeng 登录成功
+2019-10-24 17:34:11,569 [HttpRunnerManager:110] [operation:add_module_data] [INFO]- 模块添加成功：{'module_name': '新增消息', 'test_user': 'lee', 'simple_desc': '', 'other_desc': '', 'belong_project': <ProjectInfo: ProjectInfo object (3)>}
+2019-10-24 17:34:46,666 [HttpRunnerManager:62] [operation:add_project_data] [INFO]- 项目添加成功：{'project_name': '考拉阅读', 'responsible_name': 'lee', 'test_user': 'lee', 'dev_user': 'lee', 'publish_app': '考拉阅读', 'simple_desc': '', 'other_desc': ''}
+2019-10-24 17:34:56,416 [HttpRunnerManager:110] [operation:add_module_data] [INFO]- 模块添加成功：{'module_name': '新增消息', 'test_user': 'lee', 'simple_desc': '', 'other_desc': '', 'belong_project': <ProjectInfo: ProjectInfo object (4)>}
+2019-10-24 17:39:38,192 [HttpRunnerManager:154] [operation:add_case_data] [INFO]- 新增消息用例添加成功: {'test': {'request': {'url': '/internal-system-web/web/purchase/message/config/save', 'method': 'POST', 'json': {'editor': 'wangsuqiang@koalareading.com', 'id': 'null', 'lessonName': '1ban', 'lessonType': 1, 'platform': 1, 'productCode': 'nana', 'text': 'najie nice！', 'title': 'najie'}}, 'name': '新增消息'}}
+2019-10-25 13:14:38,889 [HttpRunnerManager:56] [views:login] [INFO]- lixiaofeng 登录成功
+2019-10-25 13:24:46,628 [HttpRunnerManager:154] [operation:add_case_data] [INFO]- 添加发布会用例添加成功: {'test': {'request': {'url': '/add_event/', 'method': 'POST', 'json': {'eid': 2, 'name': '$get_random_name', 'limit': 3, 'status': 1, 'address': 4, 'start_time': '2019-10-25 13:19:18'}}, 'name': '添加发布会', 'variables': [{'get_random_name': '${get_random_name()}'}]}}
+2019-10-25 13:24:52,417 [django.request:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /api/run_test/
+Traceback (most recent call last):
+AttributeError: module 'builtins' has no attribute 'get_random_name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+httprunner.exceptions.FunctionNotFound: get_random_name is not found.
+2019-10-25 13:27:14,984 [django.request:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /api/run_test/
+Traceback (most recent call last):
+AttributeError: module 'builtins' has no attribute 'get_random_name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+httprunner.exceptions.FunctionNotFound: get_random_name is not found.
+2019-10-25 13:27:50,108 [django.request:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /api/run_test/
+Traceback (most recent call last):
+AttributeError: module 'builtins' has no attribute 'get_random_name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+httprunner.exceptions.FunctionNotFound: get_random_name is not found.
+2019-10-25 13:29:44,883 [django.request:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /api/run_test/
+Traceback (most recent call last):
+AttributeError: module 'builtins' has no attribute 'get_random_name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+httprunner.exceptions.FunctionNotFound: get_random_name is not found.
+2019-10-25 13:30:51,303 [django.request:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /api/run_test/
+Traceback (most recent call last):
+AttributeError: module 'builtins' has no attribute 'get_random_name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+httprunner.exceptions.FunctionNotFound: get_random_name is not found.
+2019-10-25 13:33:17,850 [django.request:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /api/run_test/
+Traceback (most recent call last):
+AttributeError: module 'builtins' has no attribute 'get_random_name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+httprunner.exceptions.FunctionNotFound: get_random_name is not found.
+2019-10-25 13:34:49,227 [django.request:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /api/run_test/
+Traceback (most recent call last):
+AttributeError: module 'builtins' has no attribute 'get_random_name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+httprunner.exceptions.FunctionNotFound: get_random_name is not found.
+2019-10-25 13:39:53,824 [django.request:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /api/run_test/
+Traceback (most recent call last):
+AttributeError: module 'builtins' has no attribute 'get_random_name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+httprunner.exceptions.FunctionNotFound: get_random_name is not found.
+2019-10-25 13:41:40,419 [HttpRunnerManager:163] [operation:add_case_data] [INFO]- 添加发布会用例更新成功: {'test': {'request': {'url': '/add_event/', 'method': 'POST', 'json': {'eid': 2, 'name': '$get_random_name', 'limit': 3, 'status': 1, 'address': 4, 'start_time': '2019-10-25 13:19:18'}}, 'name': '添加发布会', 'validate': [{'comparator': 'equals', 'check': 'content.message', 'expect': 'add event success'}], 'variables': [{'get_random_name': '${get_random_name()}'}]}}
+2019-10-25 13:42:58,962 [django.request:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /api/run_test/
+Traceback (most recent call last):
+AttributeError: module 'builtins' has no attribute 'get_random_name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+httprunner.exceptions.FunctionNotFound: get_random_name is not found.
+2019-10-25 14:19:10,696 [django.request:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /api/run_test/
+Traceback (most recent call last):
+AttributeError: module 'builtins' has no attribute 'get_random_name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+httprunner.exceptions.FunctionNotFound: get_random_name is not found.
+2019-10-25 14:20:08,386 [django.request:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /api/run_test/
+Traceback (most recent call last):
+AttributeError: module 'builtins' has no attribute 'get_random_name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+httprunner.exceptions.FunctionNotFound: get_random_name is not found.
+2019-10-25 14:22:44,217 [django.request:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /api/run_test/
+Traceback (most recent call last):
+AttributeError: module 'builtins' has no attribute 'get_random_name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+httprunner.exceptions.FunctionNotFound: get_random_name is not found.
+2019-10-25 14:25:28,189 [django.request:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /api/run_test/
+Traceback (most recent call last):
+AttributeError: module 'builtins' has no attribute 'get_random_name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+httprunner.exceptions.FunctionNotFound: get_random_name is not found.
+2019-10-25 14:26:04,857 [django.request:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /api/run_test/
+Traceback (most recent call last):
+AttributeError: module 'builtins' has no attribute 'get_random_name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+httprunner.exceptions.FunctionNotFound: get_random_name is not found.
+2019-10-25 14:27:30,982 [django.request:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /api/run_test/
+Traceback (most recent call last):
+AttributeError: module 'builtins' has no attribute 'get_random_name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+httprunner.exceptions.FunctionNotFound: get_random_name is not found.
+2019-10-25 14:27:56,979 [django.request:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /api/run_test/
+Traceback (most recent call last):
+AttributeError: module 'builtins' has no attribute 'get_random_name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+httprunner.exceptions.FunctionNotFound: get_random_name is not found.
+2019-10-25 14:30:09,107 [HttpRunnerManager:163] [operation:add_case_data] [INFO]- 添加发布会用例更新成功: {'test': {'request': {'url': '/add_event/', 'method': 'POST', 'data': {'eid': '2', 'name': '$get_random_name', 'limit': '1', 'status': '1', 'address': '2', 'start_time': '2019-10-25 13:19:18'}}, 'name': '添加发布会', 'validate': [{'comparator': 'equals', 'check': 'content.message', 'expect': ''}], 'variables': [{'get_random_name': '${get_random_name()}'}]}}
+2019-10-25 14:30:41,714 [HttpRunnerManager:163] [operation:add_case_data] [INFO]- 添加发布会用例更新成功: {'test': {'request': {'url': '/add_event/', 'method': 'POST', 'data': {'eid': '2', 'name': '$get_random_name', 'limit': '1', 'status': '1', 'address': '2', 'start_time': '2019-10-25 13:19:18'}}, 'name': '添加发布会', 'validate': [{'comparator': 'equals', 'check': 'content.message', 'expect': 'add event success'}], 'variables': [{'get_random_name': '${get_random_name()}'}]}}

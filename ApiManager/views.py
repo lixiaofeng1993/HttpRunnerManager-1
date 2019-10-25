@@ -233,9 +233,10 @@ def run_test(request):
         base_url = request.POST.get('env_name')
         type = request.POST.get('type', 'test')
 
+        testcase_dir_path1 = os.path.join(testcase_dir_path, 'guest项目')
         run_test_by_type(id, base_url, testcase_dir_path, type)
-        runner.run(testcase_dir_path)
-        shutil.rmtree(testcase_dir_path)  # 递归删除所有文件
+        runner.run(testcase_dir_path1)
+        # shutil.rmtree(testcase_dir_path)  # 递归删除所有文件
         runner._summary = timestamp_to_datetime(runner._summary, base_url, type=False)
         with open('summary.json', 'w', encoding='utf-8') as f:
             json.dump(runner._summary, f, ensure_ascii=False, sort_keys=True, indent=4)
